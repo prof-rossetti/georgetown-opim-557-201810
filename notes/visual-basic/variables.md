@@ -1,5 +1,11 @@
 # Variables
 
+> "an element, feature, or factor that is liable to vary or change."
+>
+> "math: a quantity that during a calculation is assumed to vary or be capable of varying in value."
+>
+> "computing: a data item that may take on more than one value during the runtime of a program."
+
 ## Declaration
 
 Visual Basic has traditionally been a "statically-typed" language, which means it requires the developer to declare which [type of data](datatypes.md) a variable will hold. In the current version it is not always necessary to declare variables to produce desired functionality. However, declaring variables is a best practice, at least for performance reasons.
