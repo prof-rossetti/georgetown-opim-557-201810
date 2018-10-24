@@ -13,29 +13,33 @@ Credits | 1.5
 
 ## Instructional Units
 
-### Prerequisites
-
-Background Reading:
-
   + [Syllabus Review, Overview of Course Operations](/SYLLABUS.pdf)
-  + [Getting Help](/HELP.md), and Welcome to Slack
+  + [Getting Help](/HELP.md)
   + [Intro to Information Systems and Decision-support Systems (DSS)](/notes/information-systems/README.md)
+  + "Welcome to Slack" Exercise
 
-Getting Started:
+### Unit 1 - Object Oriented Programming with VBA in MS Excel
+
+Unit 1a:
 
   + [Getting Started with VBA in MS Excel](/notes/visual-basic/getting-started.md)
   + [VBA Debugging Tools](/notes/visual-basic/debugging.md)
   + [Recording Macros](/notes/visual-basic/macros.md)
   + "Process Automation" Exercise
 
-### Unit 1 - Object Oriented Programming with VBA in MS Excel
+Unit 1b:
 
-Unit 1a:
-
-  + Interface Elements: [ActiveX Controls](/notes/activex-controls.md), [Command Buttons](/notes/activex-controls/command-buttons.md), [Message Boxes](/notes/visual-basic/message-boxes.md)
-  + [MS Excel Objects](/notes/excel-objects/README.md): [Workbooks](/notes/excel-objects/workbooks.md), [Worksheets](/notes/excel-objects/worksheets.md), [Ranges](/notes/excel-objects/ranges.md)
+  + [ActiveX Controls](/notes/activex-controls/README.md)
+  + [Command Buttons](/notes/activex-controls/command-buttons.md)
+  + [Message Boxes](/notes/visual-basic/message-boxes.md)
+  + [MS Excel Objects](/notes/excel-objects/README.md)
+  + [Workbooks](/notes/excel-objects/workbooks.md)
+  + [Worksheets](/notes/excel-objects/worksheets.md)
+  + [Ranges](/notes/excel-objects/ranges.md)
   + Events and Event-handlers
-  + VBA Programming: [Variables](/notes/visual-basic/variables.md), [Datatypes](/notes/visual-basic/datatypes.md), [Strings](/notes/visual-basic/datatypes/strings.md)
+  + [Variables](/notes/visual-basic/variables.md)
+  + [Datatypes](/notes/visual-basic/datatypes.md)
+  + [Strings](/notes/visual-basic/datatypes/strings.md)
   + "Smart Workbooks" Exercise
 
 ### Unit 2 - User Interfaces and Experiences
