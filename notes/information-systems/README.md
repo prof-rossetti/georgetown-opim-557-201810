@@ -1,6 +1,6 @@
 # Information Systems
 
-An **Information System** processes one or more **information inputs** into one or more **information outputs** for a specific purpose.
+An **Information System** processes one or more **information inputs** into one or more **information outputs** for a specific purpose. Example system diagram:
 
 ![A "data flow diagram" depicting a system with inputs flowing in and outputs flowing out.](/img/notes/information-systems/example-data-flow-diagram.png)
 
@@ -12,11 +12,11 @@ Information systems can perform numeric computations, facilitate communication a
 
 Sometimes an information system outputs the same or similar information it receives. But more often a system's objective is to transform information inputs into more valuable information outputs. Information has different value, depending on where it falls within the following **Information Hierarchy**:
 
-term | description | example
---- | --- | ---
-**Data** | A description of something, not necessarily organized or synthesized to provide meaning. | Numbers, words, dates, images, files.
-**Information** | Data that has been organized or interpreted to provide meaning and value. | A chart of datapoints over time depicting an upward trend in sales.
-**Knowledge** | Data and/or Information that has been organized, processed and interpreted to convey understanding, experience, accumulated learning, expertise, etc. | An informed decision to raise marketing expenditure levels.
+term | description
+--- | ---
+**Data** | A description of something, not necessarily organized or synthesized to provide meaning.
+**Information** | Data that has been organized or interpreted to provide meaning and value.
+**Knowledge** | Data and/or Information that has been organized, processed and interpreted to convey understanding, experience, accumulated learning, expertise, etc.
 
 ## Classifications
 

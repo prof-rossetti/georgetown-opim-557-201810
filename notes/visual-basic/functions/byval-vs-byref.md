@@ -25,6 +25,6 @@ Private Sub DoStuff()
     MsgBox ("ORIGINAL: " & OriginalMessage) '--> "Original"
 
     AnotherMessage = RefMessage(OriginalMessage)
-    MsgBox ("ORIGINAL: " & OriginalMessage) '--> "Ref Ref Ref" <--- this is the difference when you pass a paramter by reference
+    MsgBox ("ORIGINAL: " & OriginalMessage) '--> "Ref Ref Ref" <--- this is the difference when you pass a parameter by reference
 End Sub
 ```

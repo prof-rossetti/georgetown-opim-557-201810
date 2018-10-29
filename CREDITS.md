@@ -4,7 +4,7 @@ These materials have been adapted from materials from the [Fall 2017](https://gi
 
 Special thanks to Professor Robin Dillon-Merrill for sharing lecture notes and example files from previous semesters, and to all the Georgetown MBA students who reviewed these materials and provided feedback. :pray:
 
-## Resources
+## Additional Resources
 
 Tools:
 

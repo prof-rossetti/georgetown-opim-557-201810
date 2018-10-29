@@ -60,7 +60,7 @@ Next Counter ' increment the Counter's value and execute the next iteration
 
 ## `For Each ... Next` Loops
 
-This kind of loop will iterate over each object in a collection of objects. Examples of collections include a [range](/notes/excel-objects/ranges.md) of cell objects, as well as an [array](/notes/visual-basic/datatypes/arrays.md) of items.
+This kind of loop will iterate over each object in a collection of objects. Examples of collections include a [range](/notes/ms-excel/ranges.md) of cell objects, as well as an [array](/notes/visual-basic/datatypes/arrays.md) of items.
 
 ```vb
 Dim MyCell As Range

@@ -1,4 +1,4 @@
-# OPIM 557 - Computer-based Decision Support Systems
+# OPIM 557: Computer-based Decision Support Systems
 
 &nbsp; | &nbsp;
 --- | ---
@@ -11,6 +11,13 @@ Credits | 1.5
 
 > This course explores advanced topics in management support systems with a focus on decision theory. The course will present insights into key issues and problems in decision support information systems. The Visual Basic for Applications (VBA) programming language within MS Excel will be used as the primary tool to build basic decision support systems. Class deliverables will be systems built with VBA code.
 
+Bookmark-worthy Links:
+
+  + [Syllabus](/SYLLABUS.pdf)
+  + [Schedule](/SCHEDULE.md)
+  + [Troubleshooting Guide](/HELP.md)
+  + [Canvas](https://georgetown.instructure.com/courses/65741)
+  + [Slack](https://georgetown-opim-557.slack.com), [Onboarding Guide](/SLACK.md)
 
 ## [Acknowledgements](/CREDITS.md)
 

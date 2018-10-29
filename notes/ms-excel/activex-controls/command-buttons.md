@@ -2,7 +2,7 @@
 
 A [`CommandButton`](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/commandbutton-control) control represents a clickable button.
 
-![a screenshot of an excel worksheet with two buttons which read "Get cell value" and "Set cell value", respectively.](/img/notes/activex-controls/command-button.png)
+![a screenshot of an excel worksheet with two buttons which read "Get cell value" and "Set cell value", respectively.](/img/notes/ms-excel/activex-controls/command-button.png)
 
 ## Insertion
 

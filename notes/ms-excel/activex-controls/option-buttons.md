@@ -2,7 +2,7 @@
 
 The [`OptionButton` control](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/optionbutton-control) represents a selectable circle (a.k.a. "radio button") belonging to a specified group from which only one may be selected at any given time.
 
-![a screenshot depicting one of four selected option buttons](/img/notes/activex-controls/option-button-1.png)
+![a screenshot depicting one of four selected option buttons](/img/notes/ms-excel/activex-controls/option-button-1.png)
 
 ## Insertion
 

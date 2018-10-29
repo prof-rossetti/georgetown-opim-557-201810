@@ -17,7 +17,7 @@ name | description
 
 Insert any ActiveX Control via the "Developer" > "Insert" menu.
 
-![A screenshot of the "Developer" > "Insert" menu.](/img/notes/activex-controls/inserting-a-control.png)
+![A screenshot of the "Developer" > "Insert" menu.](/img/notes/ms-excel/activex-controls/inserting-a-control.png)
 
 ## Properties
 
@@ -25,7 +25,7 @@ Each control has a certain set of properties which govern its behavior.
 
 Access any given control's properties from the "Developer" > "Properties" menu, or by right-clicking on the control and selecting "Properties".
 
-![a menu depicting a control's properties. on the left are the property names and on the right are their respective values](/img/notes/activex-controls/command-button-properties.png)
+![a menu depicting a control's properties. on the left are the property names and on the right are their respective values](/img/notes/ms-excel/activex-controls/command-button-properties.png)
 
 All controls have a `(Name)` property which uniquely identifies the control by a friendly name. The control's name also acts as the name of a Visual Basic variable which allows programmatic access to the control's properties. When you create a new control of a given type, that control's default name will be the name of the control with an integer suffix (e.g. `CommandButton1`). The names of subsequent controls will increment the integer value (e.g. `CommandButton2` and `CommandButton3`). If you decide to rename a given control, make sure to cascade that name change across all references to that control.
 

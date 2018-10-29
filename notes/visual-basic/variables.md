@@ -1,5 +1,11 @@
 # Variables
 
+> "an element, feature, or factor that is liable to vary or change."
+>
+> "math: a quantity that during a calculation is assumed to vary or be capable of varying in value."
+>
+> "computing: a data item that may take on more than one value during the runtime of a program."
+
 ## Declaration
 
 Visual Basic has traditionally been a "statically-typed" language, which means it requires the developer to declare which [type of data](datatypes.md) a variable will hold. In the current version it is not always necessary to declare variables to produce desired functionality. However, declaring variables is a best practice, at least for performance reasons.
@@ -36,7 +42,7 @@ MyDecimal = 3.14
 MyDate = #10/31/2017# ' the pound signs surround the date value formatted as MM/DD/YYYY
 ```
 
-To assign an [Excel Object](/notes/excel-objects) to a variable, you may need to use the `Set` keyword:
+To assign an [Excel Object](/notes/ms-excel) to a variable, you may need to use the `Set` keyword:
 
 ```vb
 Set MySheet = Worksheets("Sheet1")

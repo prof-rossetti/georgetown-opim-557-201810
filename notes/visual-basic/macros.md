@@ -16,9 +16,13 @@ See also: [Getting Started with VBA - Recording a Macro](https://msdn.microsoft.
 
 ## Executing
 
+### Executing Manually
+
 Execute a macro manually by selecting it from the "Developer" > "Macros" menu and pressing "Run".
 
 ![A screenshot of the "Macros" window.](/img/notes/visual-basic/playing-a-macro.png)
+
+### Executing Programmatically
 
 Alternatively, execute a macro programmatically in VBA by using the `Call` keyword followed by the name of the macro. For example:
 

@@ -15,7 +15,7 @@ name | description
 `Date` | A calendar date.
 [`Array`](datatypes/arrays.md) | An ordered collection of other items.
 
-In addition to these common programming datatypes, you can also think about each [Excel Object](/notes/excel-objects) and [ActiveX Control](/notes/activex-controls) as its own datatype, each with its own custom properties and methods.
+In addition to these common programming datatypes, you can also think about each [Excel Object](/notes/ms-excel) and [ActiveX Control](/notes/ms-excel/activex-controls) as its own datatype, each with its own custom properties and methods.
 
 ## Checking a Variable's Type
 
