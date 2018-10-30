@@ -32,7 +32,7 @@ TypeName(#10/31/2017#) ' --> "Date"
 TypeName(Range("A1:A7")) ' --> "Range"
 
 If TypeName("Hello") = "String" Then
-  MsgBox("'Hello' is a string datatype")
+    MsgBox("'Hello' is a string datatype")
 End If
 ```
 
@@ -47,7 +47,7 @@ VarType(#10/31/2017#) ' --> 7
 VarType(Range("A1:A7")) ' --> 8204
 
 If VarType("Hello") = 8 Then
-  MsgBox("'Hello' is a string datatype")
+    MsgBox("'Hello' is a string datatype")
 End If
 ```
 
@@ -114,9 +114,4 @@ End Sub
 
 ## Datatypes of `InputBox` Values
 
-When you use an `InputBox` to capture a user input, beware the default datatype of the resulting value will be a `String`. If you would like to change the default datatype to be numeric, pass a `Type` parameter value of `1` and the resulting value will instead be a `Double`:
-
-```vb
-Dim MyInput
-MyInput = Application.InputBox(prompt:="Please enter your birth year: ", Type:=1)
-```
+See also: [Datatypes of `InputBox` Values](/notes/visual-basic/input-boxes.md#datatypes-of-inputbox-values)

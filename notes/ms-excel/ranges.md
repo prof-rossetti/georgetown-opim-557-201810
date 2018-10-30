@@ -54,13 +54,13 @@ Access all cells in a given range:
 Range("A1:C5").Cells.Count ' --> 15
 ```
 
-After studying loops, you can use one to iterate through all cells in a given range:
+After studying [loops](/notes/visual-basic/loops.md), you can use one to iterate through all cells in a given range:
 
 ```vb
 Dim MyCell As Range
 
 For Each MyCell In Range("A1:C5").Cells
-  MsgBox (MyCell.Address)
+    MsgBox (MyCell.Address)
 Next MyCell
 ```
 

@@ -2,7 +2,7 @@
 
 ## Module I: Building Systems with VBA in MS Excel
 
-## Prerequisites
+### Prerequisites
 
   + Topics: [Information Systems](/notes/information-systems/README.md), Decision-Support Systems, Process Automation
   + VBA Programming: [Getting Started](/notes/visual-basic/getting-started.md), [Debugging](/notes/visual-basic/debugging.md), [Macros](/notes/visual-basic/macros.md)
@@ -10,29 +10,29 @@
 
 ### Class 1
 
-  + Topics: Object-oriented Programming with VBA in MS Excel
-  + MS Excel: Workbooks, Worksheets, Ranges
-  + Interface Elements: Message Boxes, Input Boxes, Command Buttons
-  + VBA Programming: Sub-procedures, Workbook Events
-  + Exercise: "Smart Workbooks"
+  + Topics: Object-oriented Programming with VBA in MS Excel ([MS Excel Objects](/notes/ms-excel/README.md) and [ActiveX Controls](/notes/ms-excel/activex-controls/README.md))
+  + MS Excel: [Workbooks](/notes/ms-excel/workbooks.md), [Worksheets](/notes/ms-excel/worksheets.md), [Ranges](/notes/ms-excel/ranges.md)
+  + Interface Elements: [Message Boxes](/notes/visual-basic/message-boxes.md), [Input Boxes](/notes/visual-basic/input-boxes.md), [Command Buttons](/notes/ms-excel/activex-controls/command-buttons.md)
+  + VBA Programming: [Sub-procedures](/notes/visual-basic/sub-procedures.md), Workbook Events
+  + Exercise: ["Smart Workbooks"](/exercises/smart-workbooks.md)
 
 ### Class 2
 
   + Topics: User Experience and Interface Design
-  + Interface Elements: Scroll Bars, Combo Boxes, etc.
-  + VBA Programming: Variables, Basic Datatypes (Strings, Numbers, Booleans)
-  + Exercise: "All the Controls"
+  + Interface Elements (2a): [Combo Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [List Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [Scroll Bars](/notes/ms-excel/activex-controls/scroll-bars.md), [Spin Buttons](/notes/ms-excel/activex-controls/spin-buttons.md)
+  + VBA Programming (2a): [Variables](/notes/visual-basic/variables.md), Basic [Datatypes](/notes/visual-basic/datatypes.md) ([Strings](/notes/visual-basic/datatypes/strings.md), Numbers, Booleans)
+  + Interface Elements (2b): [Check Boxes](/notes/ms-excel/activex-controls/check-boxes.md), [Option Buttons](/notes/ms-excel/activex-controls/option-buttons.md), [Toggle Buttons](/notes/ms-excel/activex-controls/toggle-buttons.md)
+  + VBA Programming (2b): [Conditional Logic and Control Flow (If statements)](/notes/visual-basic/conditionals.md)
+  + Exercise: ["ActiveX Controls"](/exercises/activex-controls.md)
 
 ### Class 3
 
-  + Interface Elements: Check Boxes, Option Buttons, etc.
-  + VBA Programming: Conditional Logic and Control Flow (If statements)
-  + Exercise: "All the Controls" (cont’d)
+  + Interface Elements: [User Forms](/notes/ms-excel/user-forms.md)
+  + Exercise: ["User Form Controls"](/exercises/user-form-controls.md)
 
 ### Class 4
 
-  + Interface Elements: User Forms
-  + Project: "Simple System"
+  + Project: ["Simple System"](/projects/simple-system.md)
 
 <hr>
 

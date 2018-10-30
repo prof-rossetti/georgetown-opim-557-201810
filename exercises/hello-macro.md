@@ -1,6 +1,13 @@
 # "Hello Macro" Exercise
 
-Objective: Manually create and execute a [Macro](/notes/visual-basic/macros.md) in MS Excel to automate some set of manual tasks.
+## Learning Objectives
+
+  1. Gain exposure to the developer tab in MS Excel.
+  2. Practice using Macros to automate manual processes.
+
+## Instructions
+
+Manually create and execute a [Macro](/notes/visual-basic/macros.md) in MS Excel to automate some set of manual tasks.
 
 The manual tasks could be anything you can do in MS Excel, like: formatting cells, manipulating cell data, using formulae, performing calculations, importing data, adding tables and charts, etc.
 

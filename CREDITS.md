@@ -21,3 +21,7 @@ Images:
   + [Pivot Cache Illustration](https://trumpexcel.com/wp-content/uploads/2015/11/Pivot-Cache-in-Pivot-Table-Flow.png)
   + [Internet Maps](https://www.vox.com/a/internet-maps)
   + [Tin Can Telephone](https://www.timetoast.com/timelines/tin-cans-to-touchscreens)
+
+Materials:
+
+  + [Looping through sheets](https://www.extendoffice.com/documents/excel/3057-excel-delete-all-sheets-except-current.html)

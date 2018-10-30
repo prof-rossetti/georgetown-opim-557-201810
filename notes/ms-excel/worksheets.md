@@ -4,7 +4,7 @@
 
 The [`Worksheet`](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/worksheet-object-excel) object references a corresponding worksheet in the workbook.
 
-To access a specific sheet, reference it by name (e.g. "Sheet1") or position in the workbook (e.g. 1). Or reference the `ActiveSheet`::
+To access a specific sheet, reference it by name (e.g. "Sheet1") or position in the workbook (e.g. 1). Or reference the `ActiveSheet`:
 
 ```vb
 Worksheets("Sheet1").Name ' --> "Sheet1"
@@ -42,11 +42,9 @@ Worksheets("Sheet3").Activate
 
 #### Looping Through Worksheets
 
-After you have studied looping and arrays, you can apply the concepts to loop through a collection of worksheets:
+After you have studied [looping](/notes/visual-basic/loops.md) and [arrays](/notes/visual-basic/datatypes/arrays.md), you can apply the concepts to loop through a collection of worksheets:
 
 ```vb
-' adapted from source: https://www.extendoffice.com/documents/excel/3057-excel-delete-all-sheets-except-current.html
-
 Dim MySheet As Worksheet
 
 For Each MySheet In Worksheets

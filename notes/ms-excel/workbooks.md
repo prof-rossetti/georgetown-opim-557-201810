@@ -18,6 +18,12 @@ To activate a given workbook:
 Workbooks("mybook.xlsm").Activate
 ```
 
+<hr>
+
+> Below this line there are intermediate topics which you can feel free to come back to later...
+
+<hr>
+
 ### Opening and Closing Workbooks
 
 To open a workbook, try using the in [`Application.Workbooks.Open()` method](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/workbooks-open-method-excel):
