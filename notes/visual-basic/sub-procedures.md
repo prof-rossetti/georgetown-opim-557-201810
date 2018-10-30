@@ -8,13 +8,13 @@ Whereas the responsibility of a [function](functions.md) is to return some value
 
 ```vb
 Private Sub DoStuff()
-  ' write code here which will perform some action
+    ' write code here which will perform some action
 End Sub
 ```
 
 ```vb
 Private Sub DisplayMyMessage()
-  MsgBox("My message is: Hello World")
+    MsgBox("My message is: Hello World")
 End Sub
 ```
 
@@ -30,7 +30,7 @@ When necessary and appropriate, specify one or more arguments (a.k.a. "parameter
 
 ```vb
 Private Sub DisplayCustomMessage(ByVal SomeMessage As String)
-  MsgBox("The custom message is: " & SomeMessage)
+    MsgBox("The custom message is: " & SomeMessage)
 End Sub
 ```
 
