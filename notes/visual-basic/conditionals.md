@@ -8,13 +8,13 @@ All `If` statements contain an initial `If` clause and generally end with the ke
 
 ```vb
 If 5 = 5 Then
-  MsgBox("Hello") ' this statement will be executed, since the condition is true
+    MsgBox("Hello") ' this statement will be executed, since the condition is true
 End If
 ```
 
 ```vb
 If 5 = 4 Then
-  MsgBox("Hello") ' this statement will not be executed, since the condition is false
+    MsgBox("Hello") ' this statement will not be executed, since the condition is false
 End If
 ```
 
@@ -26,9 +26,9 @@ Add a final `Else` clause to execute different code statements depending on whet
 
 ```vb
 If 5 = 4 Then
-  MsgBox("Yep")
+    MsgBox("Yep")
 Else
-  MsgBox("Nope")
+    MsgBox("Nope")
 End If
 ```
 
@@ -36,12 +36,12 @@ Add any number of `ElseIf` clauses, each with their own condition. If there are 
 
 ```vb
 If 5 = 4 Then
-  MsgBox("Yep")
+    MsgBox("Yep")
 ElseIf 5 = 5 Then
-  MsgBox("First true condition") ' this statement will always get executed
+    MsgBox("First true condition") ' this statement will always get executed
 ElseIf True = True Then
-  MsgBox("Second true condition") ' this statement will never get executed
+    MsgBox("Second true condition") ' this statement will never get executed
 Else
-  MsgBox("Nope")
+    MsgBox("Nope")
 End If
 ```
