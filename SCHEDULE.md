@@ -10,24 +10,24 @@
 
 ### Class 1
 
-  + Topics: Object-oriented Programming with VBA in MS Excel
-  + MS Excel: Workbooks, Worksheets, Ranges
-  + Interface Elements: Message Boxes, Input Boxes, Command Buttons
-  + VBA Programming: Sub-procedures, Workbook Events
-  + Exercise: "Smart Workbooks"
+  + Topics: Object-oriented Programming with VBA in MS Excel ([MS Excel Objects]([ActiveX Controls](/notes/ms-excel/activex-controls/README.md)) and [ActiveX Controls](/notes/ms-excel/README.md))
+  + MS Excel: [Workbooks](/notes/ms-excel/workbooks.md), [Worksheets](/notes/ms-excel/worksheets.md), [Ranges](/notes/ms-excel/ranges.md)
+  + Interface Elements: [Message Boxes](/notes/visual-basic/message-boxes.md), [Input Boxes](/notes/visual-basic/input-boxes.md), [Command Buttons](/notes/ms-excel/activex-controls/command-buttons.md)
+  + VBA Programming: [Sub-procedures](/notes/visual-basic/sub-procedures.md), Workbook Events
+  + Exercise: ["Smart Workbooks"](/exercises/smart-workbooks.md)
 
 ### Class 2
 
   + Topics: User Experience and Interface Design
-  + Interface Elements: Scroll Bars, Combo Boxes, etc.
-  + VBA Programming: Variables, Basic Datatypes (Strings, Numbers, Booleans)
-  + Exercise: "All the Controls"
+  + Interface Elements: [Combo Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [List Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [Scroll Bars](/notes/ms-excel/activex-controls/scroll-bars.md), [Spin Buttons](/notes/ms-excel/activex-controls/spin-buttons.md)
+  + VBA Programming: [Variables](/notes/visual-basic/variables.md), Basic [Datatypes](/notes/visual-basic/datatypes.md) ([Strings](/notes/visual-basic/datatypes/strings.md), Numbers, Booleans)
+  + Exercise: ["All the Controls"](/exercises/all-the-controls.md)
 
 ### Class 3
 
-  + Interface Elements: Check Boxes, Option Buttons, etc.
-  + VBA Programming: Conditional Logic and Control Flow (If statements)
-  + Exercise: "All the Controls" (cont’d)
+  + Interface Elements: [Check Boxes](/notes/ms-excel/activex-controls/check-boxes.md), [Option Buttons](/notes/ms-excel/activex-controls/option-buttons.md), [Toggle Buttons](/notes/ms-excel/activex-controls/toggle-buttons.md)
+  + VBA Programming: [Conditional Logic and Control Flow (If statements)](/notes/visual-basic/conditionals.md)
+  + Exercise: ["All the Controls"](/exercises/all-the-controls.md) (cont’d)
 
 ### Class 4
 
