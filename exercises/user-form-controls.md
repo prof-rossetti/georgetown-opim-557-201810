@@ -10,4 +10,4 @@ After completing the ["ActiveX Controls" exercise](/exercises/activex-controls.m
 
 The button's caption should read "Launch My User Form", and when it is clicked, it should show a User Form.
 
-On the User Form, add a handful of available interface elements, including a button which has its own click event and does things, like display the other input values, when clicked.
+On the User Form, add a handful of available interface elements, including a button which has its own click event and does things when clicked, like displaying a message box containing the other input values.
