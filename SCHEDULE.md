@@ -10,7 +10,7 @@
 
 ### Class 1
 
-  + Topics: Object-oriented Programming with VBA in MS Excel ([MS Excel Objects]([ActiveX Controls](/notes/ms-excel/activex-controls/README.md)) and [ActiveX Controls](/notes/ms-excel/README.md))
+  + Topics: Object-oriented Programming with VBA in MS Excel ([MS Excel Objects](/notes/ms-excel/README.md) and [ActiveX Controls](/notes/ms-excel/activex-controls/README.md))
   + MS Excel: [Workbooks](/notes/ms-excel/workbooks.md), [Worksheets](/notes/ms-excel/worksheets.md), [Ranges](/notes/ms-excel/ranges.md)
   + Interface Elements: [Message Boxes](/notes/visual-basic/message-boxes.md), [Input Boxes](/notes/visual-basic/input-boxes.md), [Command Buttons](/notes/ms-excel/activex-controls/command-buttons.md)
   + VBA Programming: [Sub-procedures](/notes/visual-basic/sub-procedures.md), Workbook Events
