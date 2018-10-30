@@ -2,7 +2,7 @@
 
 ## Module I: Building Systems with VBA in MS Excel
 
-## Prerequisites
+### Prerequisites
 
   + Topics: [Information Systems](/notes/information-systems/README.md), Decision-Support Systems, Process Automation
   + VBA Programming: [Getting Started](/notes/visual-basic/getting-started.md), [Debugging](/notes/visual-basic/debugging.md), [Macros](/notes/visual-basic/macros.md)
