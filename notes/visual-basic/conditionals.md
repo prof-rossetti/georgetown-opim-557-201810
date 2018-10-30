@@ -2,9 +2,9 @@
 
 ## If Statements
 
-The [`If` Statement](https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/ifthenelse-statement) allows the program to implement conditional logic.
+The [`If` Statement](https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/ifthenelse-statement) allows the programmer to "control the flow" of a program by handling conditional logic (i.e. checking whether or not a given condition is true, then responding accordingly).
 
-All `If` statements contain an initial `If` clause and generally end with the keywords `End If`. Everything inbetween is considered to be inside the scope of that `If` statement:
+All `If` statements contain an initial `If` clause and generally end with the keywords `End If`. Everything in between is considered to be inside the scope of that `If` statement:
 
 ```vb
 If 5 = 5 Then
