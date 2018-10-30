@@ -28,13 +28,13 @@ Revise the properties of these controls and write underlying VBA code as appropr
 
 When the user clicks the "Count number of times clicked" button, the program should display a message like "You have clicked me `X` times", where `X` is the number of times the button has been clicked.
 
-![A screenshot of a message box that reads 'You have clicked me 3 times. Keep going!'](command-button-counting-clicks.png)
+![A screenshot of a message box that reads 'You have clicked me 3 times. Keep going!'](/img/exercises/activex-controls/command-button-counting-clicks.png)
 
 > Clarification: please use a variable, not a cell for storing the click count.
 
 > Hint: declare a variable outside the scope of the button's click event sub-procedure, and increment the variable's value from inside the scope of the click event sub-procedure.
 
-> Hint: the first hint may only work if you declare the variable at the top of your VBA document, above any other sub-procedure definitions. If you desire more flexibility in the positioning of your code, you might want to explore using [`Static`](https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/modifiers/static) instead of `Dim`,  to change the scope of your variable. Note: if you are declaring the variable using `Static`, you will want to do so within the scope of the click event sub-procedure.
+> Hint: the first hint may only work if you declare the variable at the top of your VBA document, above any other sub-procedure definitions. If you desire more flexibility in the positioning of your code, you might want to explore using [`Static`](https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/modifiers/static) instead of `Dim`, to change the scope of your variable. Note: if you are declaring the variable using `Static`, you will want to do so within the scope of the click event sub-procedure. Note: Static variables are outside the scope of this course.
 
 #### Combo Box Challenge
 
@@ -104,3 +104,9 @@ And, instead of writing the name or caption of a single selected option to a spe
 > Hint: inside the scope of each check box control's click event sub-procedure, use one or more `If` statements to check the values of each check box, and conditionally concatenate a string variable to include the name or caption of each control as appropriate.
 
 > Note: don't worry if this challenge results in some code duplication. After you learn about custom sub-procedures and parameters, we can apply techniques for simplifying, or "refactoring" this code to remove duplication.
+
+<hr>
+
+## Further Exploration
+
+Right now the click counter will reset when you close the workbook. How could you get the click count to persist and continue counting even after the workbook is closed and re-opened?

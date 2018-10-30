@@ -37,7 +37,3 @@ Challenges related to code underlying the "Interface" sheet:
   4. When the user clicks the "Read Contents of Cell A1" button, display a message containing the contents of cell A1, whatever they may be.
   5. When the user clicks the "Clear Contents of Cell A1" button, clear the contents of cell A1.
   6. When the user clicks the "Set Contents of Cell A1" button, set the contents of cell A1 to be some text like "abc123".
-
-### Further Exploration
-
-Right now the click counter will reset when you close the workbook. How could you get the click count to persist and continue counting even after the workbook is closed and re-opened?
