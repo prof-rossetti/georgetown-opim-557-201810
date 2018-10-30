@@ -18,6 +18,7 @@ Bookmark-worthy Links:
   + [Troubleshooting Guide](/HELP.md)
   + [Canvas](https://georgetown.instructure.com/courses/65741)
   + [Slack](https://georgetown-opim-557.slack.com), [Onboarding Guide](/SLACK.md)
+  + [Progress Check-in Form](https://goo.gl/forms/rsRRFD9QXt5JbfUb2)
 
 ## [Acknowledgements](/CREDITS.md)
 

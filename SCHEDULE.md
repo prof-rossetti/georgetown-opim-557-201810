@@ -19,10 +19,10 @@
 ### Class 2
 
   + Topics: User Experience and Interface Design
-  + Interface Elements (a): [Combo Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [List Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [Scroll Bars](/notes/ms-excel/activex-controls/scroll-bars.md), [Spin Buttons](/notes/ms-excel/activex-controls/spin-buttons.md)
-  + VBA Programming (a): [Variables](/notes/visual-basic/variables.md), Basic [Datatypes](/notes/visual-basic/datatypes.md) ([Strings](/notes/visual-basic/datatypes/strings.md), Numbers, Booleans)
-  + Interface Elements (b): [Check Boxes](/notes/ms-excel/activex-controls/check-boxes.md), [Option Buttons](/notes/ms-excel/activex-controls/option-buttons.md), [Toggle Buttons](/notes/ms-excel/activex-controls/toggle-buttons.md), [User Forms](/notes/ms-excel/user-forms.md)
-  + VBA Programming (b): [Conditional Logic and Control Flow (If statements)](/notes/visual-basic/conditionals.md)
+  + Interface Elements (2a): [Combo Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [List Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [Scroll Bars](/notes/ms-excel/activex-controls/scroll-bars.md), [Spin Buttons](/notes/ms-excel/activex-controls/spin-buttons.md)
+  + VBA Programming (2a): [Variables](/notes/visual-basic/variables.md), Basic [Datatypes](/notes/visual-basic/datatypes.md) ([Strings](/notes/visual-basic/datatypes/strings.md), Numbers, Booleans)
+  + Interface Elements (2b): [Check Boxes](/notes/ms-excel/activex-controls/check-boxes.md), [Option Buttons](/notes/ms-excel/activex-controls/option-buttons.md), [Toggle Buttons](/notes/ms-excel/activex-controls/toggle-buttons.md)
+  + VBA Programming (2b): [Conditional Logic and Control Flow (If statements)](/notes/visual-basic/conditionals.md)
   + Exercise: ["ActiveX Controls"](/exercises/activex-controls.md)
 
 ### Class 3
