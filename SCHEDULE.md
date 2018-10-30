@@ -25,13 +25,13 @@
 
 ### Class 3
 
-  + Interface Elements: [Check Boxes](/notes/ms-excel/activex-controls/check-boxes.md), [Option Buttons](/notes/ms-excel/activex-controls/option-buttons.md), [Toggle Buttons](/notes/ms-excel/activex-controls/toggle-buttons.md), User Forms
+  + Interface Elements: [Check Boxes](/notes/ms-excel/activex-controls/check-boxes.md), [Option Buttons](/notes/ms-excel/activex-controls/option-buttons.md), [Toggle Buttons](/notes/ms-excel/activex-controls/toggle-buttons.md), [User Forms](/notes/ms-excel/user-forms.md)
   + VBA Programming: [Conditional Logic and Control Flow (If statements)](/notes/visual-basic/conditionals.md)
   + Exercise: ["User Form Controls"](/exercises/user-form-controls.md)
 
 ### Class 4
 
-  + Project: "Simple System"
+  + Project: ["Simple System"](/projects/simple-system.md)
 
 <hr>
 
