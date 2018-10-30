@@ -21,17 +21,16 @@
   + Topics: User Experience and Interface Design
   + Interface Elements: [Combo Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [List Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [Scroll Bars](/notes/ms-excel/activex-controls/scroll-bars.md), [Spin Buttons](/notes/ms-excel/activex-controls/spin-buttons.md)
   + VBA Programming: [Variables](/notes/visual-basic/variables.md), Basic [Datatypes](/notes/visual-basic/datatypes.md) ([Strings](/notes/visual-basic/datatypes/strings.md), Numbers, Booleans)
-  + Exercise: ["All the Controls"](/exercises/all-the-controls.md)
+  + Exercise: ["ActiveX Controls"](/exercises/activex-controls.md)
 
 ### Class 3
 
-  + Interface Elements: [Check Boxes](/notes/ms-excel/activex-controls/check-boxes.md), [Option Buttons](/notes/ms-excel/activex-controls/option-buttons.md), [Toggle Buttons](/notes/ms-excel/activex-controls/toggle-buttons.md)
+  + Interface Elements: [Check Boxes](/notes/ms-excel/activex-controls/check-boxes.md), [Option Buttons](/notes/ms-excel/activex-controls/option-buttons.md), [Toggle Buttons](/notes/ms-excel/activex-controls/toggle-buttons.md), User Forms
   + VBA Programming: [Conditional Logic and Control Flow (If statements)](/notes/visual-basic/conditionals.md)
-  + Exercise: ["All the Controls"](/exercises/all-the-controls.md) (cont’d)
+  + Exercise: ["User Form Controls"](/exercises/user-form-controls.md)
 
 ### Class 4
 
-  + Interface Elements: User Forms
   + Project: "Simple System"
 
 <hr>
