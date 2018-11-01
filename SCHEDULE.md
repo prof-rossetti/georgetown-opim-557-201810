@@ -1,6 +1,6 @@
 # Schedule
 
-## Module I: Building Systems with VBA in MS Excel
+## Unit I: Building Systems with VBA in MS Excel
 
 ### Prerequisites
 
@@ -36,7 +36,7 @@
 
 <hr>
 
-## Module II: Financial Modeling
+## Unit II: Financial Modeling
 
 ### Class 5
 
@@ -56,7 +56,7 @@
 
 <hr>
 
-## Module III: Data-driven Decision-making
+## Unit III: Data-driven Decision-making
 
 ### Class 8
 
@@ -71,7 +71,7 @@
 
 <hr>
 
-## Module IV: Broader Applications
+## Unit IV: Broader Applications
 
 ### Class 10
 
