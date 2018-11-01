@@ -35,7 +35,7 @@ On the "Prompt" sheet, describe in English your chosen business prompt, includin
 
 When the user opens the workbook, they should see the user interface, either on the "Interface" sheet, or on a separate User Form displayed in-front of or instead of the "Interface" sheet. As much as possible, they should not be aware of, or otherwise be able to view or edit, the "Data" sheet.
 
-The user interface should look clean and organized.
+The user interface should look clean and organized and user-friendly.
 
 The user interface should reflect reasonable choices about which interface elements/controls to use to capture each respective information input (i.e. using a Toggle Button instead of a Text Box for the purpose of capturing a boolean value).
 
@@ -60,8 +60,8 @@ When the user submits information via the user interface, the program should dis
 
 The receipt should contain the following information:
 
-  + A unique record identifier (a.k.a. `id`).
-  + The date and time when the form was submitted (a.k.a. `timestamp`).
+  + A unique record identifier (a.k.a. `id`, e.g. `37`).
+  + The date and time when the form was submitted (a.k.a. `timestamp`, e.g. `10/21/2018 12:43:17 PM`).
   + All the other field names and values submitted via the form.
 
 Example Receipt (incomplete):
