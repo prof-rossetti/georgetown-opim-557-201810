@@ -24,9 +24,15 @@ Try to think of a business prompt that involves a form with a broad variety of d
 
 On the "Prompt" sheet, describe in English your chosen business prompt, including information about who the target end user is, why the user is submitting the form, and the value this brings to the business or organization.
 
-### Information Input Requirements
+### User Interface Design Requirements
 
-When the user opens the workbook, they should see the user interface, either on the "Interface" sheet, or on a separate User Form displayed in-front of or instead of the "Interface" sheet.
+When the user opens the workbook, they should see the user interface, either on the "Interface" sheet, or on a separate User Form displayed in-front of or instead of the "Interface" sheet. If possible, they should not be able to see the "Data" sheet.
+
+The user interface should look clean and organized.
+
+The user interface should reflect reasonable choices about which interface elements/controls to use to capture each respective information input (i.e. using a Toggle Button instead of a Text Box for the purpose of capturing a boolean value).
+
+### Information Input Requirements
 
 The user interface should include multiple interface elements, including:
 
@@ -93,13 +99,14 @@ When you are finished developing your project, [upload](https://georgetown.instr
 
 Submissions will be evaluated based on their ability to meet each of the component requirements (see corresponding sections above for detailed instructions):
 
-Category | Weight
+Requirements Category | Weight
 --- | ---
-Business Prompt Requirements | 10%
-Information Input Requirements | 25%
-Information Storage Requirements | 35%
-Information Output Requirements | 20%
-User Experience Requirements | 10%
+Business Prompt | 10%
+User Interface Design | 10%
+Information Inputs | 20%
+Information Storage | 20%
+Information Outputs | 30% (10% for capturing user inputs, 10% for generating the proper `id`, 10% for generating the proper `timestamp`)
+User Experience | 10%
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
 
