@@ -21,10 +21,13 @@ Further-develop your workbook to meet the project requirements below.
 
 ### Business Prompt Requirements
 
-Think of a use case where some business or organization would want to capture information from customers or users through in-person or online submission of a form. For example: residents submitting a "Building Permit Application" at town hall, or a user submitting a post on a social media site like Facebook or Twitter, or a user placing an order on a retail site like Amazon, or a student registering for classes, etc.
+Think of a use case where some business or organization would want to capture information from customers or users through in-person or online form submission.
 
-Try to think of a business prompt that involves a form with a broad variety of different interface elements. Your business prompt can be real, loosely based on real-life, or entirely fictional. Have fun and be creative!
+For example: residents submitting a "Building Permit Application" at town hall, a user submitting a post on a social media site like Facebook or Twitter, a user placing an order on a retail site like Amazon, a student registering for classes, etc.
 
+Your business prompt can be real, loosely based on real-life, or entirely fictional. Have fun and be creative!
+
+Try to think of a business prompt that involves a form with a broad variety of different interface elements.
 
 On the "Prompt" sheet, describe in English your chosen business prompt, including information about who the target end user is, why the user is submitting the form, and the value this brings to the business or organization.
 
@@ -43,11 +46,13 @@ The user interface should include multiple interface elements, including:
 
   + At least one which allows the user to input free response text (e.g. Text Box, Input Box).
   + At least one which forces the user to choose between two or more pre-selected options (e.g. Combo Box, Check Box, Toggle Button, etc.).
-  + A Command Button with a caption like "Submit", that when clicked triggers the information storage and display processes.
+  + A Command Button with a caption like "Submit".
 
 Example Interface (incomplete):
 
 ![](/img/notes/ms-excel/user-forms/userform-design-mode.png)
+
+When the button is pressed, the program should trigger the information storage and display processes in turn.
 
 ### Information Output Requirements
 
