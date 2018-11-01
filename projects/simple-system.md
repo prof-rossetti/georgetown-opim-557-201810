@@ -1,6 +1,6 @@
 # "Simple System" Project
 
-> The Simple System acts as an introduction to information systems, software application development, programming with VBA in MS Excel, user interface design, and data management. Students will create an interactive GUI application which accepts user form inputs and saves corresponding records in a separate worksheet.
+The Simple System acts as an introduction to information systems, software application development, programming with VBA in MS Excel, user interface design, and data management. Students will create an interactive GUI application which accepts user form inputs and saves corresponding records in a separate worksheet.
 
 ## Learning Objectives
 
@@ -11,7 +11,7 @@
 
 Create a new macro-enabled workbook named **`netid`-simple-system.xlsm**, where `netid` is your university-issued net identifier (i.e. the first part of your university-issued email address).
 
-Rename the first sheet to "Prompt". Create new blank worksheets called "Instructions", "Interface", and "Data", respectively.
+Rename the first sheet to "Prompt". Create new blank worksheets called "Interface" and "Data", respectively.
 
 Further-develop your workbook to meet the project requirements below.
 
@@ -30,19 +30,52 @@ When the user opens the workbook, they should see the user interface, either on 
 
 The user interface should include multiple interface elements, including:
 
-  + an interface element which allows the user to input free response text, like a Text Box or Input Box, Cell, etc.
-  + at least one other kind of interface element which forces the user to choose between two or more specific options, like a Combo Box, Check Box, Toggle Button, etc.
-  + a Command Button with a caption like "Submit", that when clicked triggers the information storage process
+  + At least one which allows the user to input free response text (e.g. Text Box, Input Box).
+  + At least one which forces the user to choose between two or more pre-selected options (e.g. Combo Box, Check Box, Toggle Button, etc.).
+  + A Command Button with a caption like "Submit", that when clicked triggers the information storage and display processes.
 
-### Information Storage Requirements
+Example Interface (incomplete):
 
-TBA
-
-![](/img/projects/simple-system/writing-records-autoincrement.png)
+![](/img/notes/ms-excel/user-forms/userform-design-mode.png)
 
 ### Information Output Requirements
 
-TBA
+When the user submits information via the user interface, the program should display a receipt via Message Box or other mechanism.
+
+The receipt should contain the following information:
+
+  + A unique record identifier (a.k.a. `id`).
+  + The date and time when the form was submitted (a.k.a. `timestamp`).
+  + All the other field names and values submitted via the form.
+
+Example Receipt (incomplete):
+
+![](/img/projects/simple-system/permitform-display-inputs.png)
+
+
+The `id` should be a unique, auto-incremented integer that is equal to one greater than the maximum existing identifier value.
+
+> HINT: you might not be able to determine the proper identifier value until after you have implemented the Information Storage Requirements (below). Until then, feel free to use a temporary placeholder integer (like 1 or 100 or something), then return to this task once you have demonstrated your ability to append records to the "Data" sheet.
+
+> NOTE: for the basic project requirements, it is safe to assume it is not possible for existing records to be reordered or removed or deleted.
+
+The `timestamp` should be the date and time when the form was submitted, formatted in a human-friendly way.
+
+> HINT: you might need to search the Internet for "how to get the current date and time in VBA" or "excel vba timestamp" :smiley_cat:
+
+### Information Storage Requirements
+
+In the first row of the "Data" sheet, manually create a blank table to store the records submitted via the user interface. The first two column headers must be `id` and `timestamp`, respectively. The rest of the column headers should correspond with other fields captured by your form (e.g. `name` and `address` for the building permit example).
+
+![](/img/projects/simple-system/records-sheet-setup.png)
+
+> NOTE: once you set up the headers, you shouldn't have to do it again.
+
+When the user submits information via the user interface, the program should append a corresponding record to the "Data" sheet. For subsequent form submissions, the existing data should remain intact, and the new data should be written on the next available row.
+
+![](/img/projects/simple-system/writing-records-autoincrement.png)
+
+The data should persist even after the workbook is closed and re-opened.
 
 ### User Experience Requirements
 
@@ -54,11 +87,11 @@ As much as possible, the program should prevent the end user from becoming aware
 
 ## Submission Instructions
 
-[Upload](https://georgetown.instructure.com/courses/65741/assignments/165667) your workbook file to Canvas.
+When you are finished developing your project, [upload](https://georgetown.instructure.com/courses/65741/assignments/165667) your workbook file to Canvas.
 
 ## Evaluation Methodology
 
-Submissions will be evaluated based on ability to meet each of the component requirements (see corresponding sections above for detailed instructions):
+Submissions will be evaluated based on their ability to meet each of the component requirements (see corresponding sections above for detailed instructions):
 
 Category | Weight
 --- | ---
@@ -69,3 +102,23 @@ Information Output Requirements | 20%
 User Experience Requirements | 10%
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
+
+Additionally, the professor reserves the right to award extra credit for successful implementation of the Optional Further Exploration Challenge (below).
+
+<hr>
+
+## Optional Further Exploration Challenge
+
+> WARNING: only attempt this challenge if/once you have successfully completed all the basic project requirements.
+
+Revise the original assumption about records not being able to be reordered, removed, moved, or deleted. Suppose instead records can be deleted.
+
+Optionally create a mechanism for an administrator to use a different admin interface to "delete" a record, given its identifier. Or mimic this process by manually deleting a record from the "Data" sheet.
+
+Does your program still operate as expected? Ensure that the next time the form is submitted, the identifiers are auto-incrementing properly, and are not being repeated/duplicated.
+
+For example:
+
+  1. Suppose the form is submitted three times, writing three records with identifiers `1`, `2`, and `3`, respectively.
+  2. Then the admin uses the admin interface to **delete record #2**.
+  3. Even though there are now only two remaining records on the "Data" sheet, the next time the form is submitted, the program should still be setting the next auto-incremented identifier as `4`.
