@@ -68,8 +68,6 @@ The `id` should be a unique, auto-incremented integer that is equal to one great
 
 > HINT: you might not be able to determine the proper identifier value until after you have implemented the Information Storage Requirements (below). Until then, feel free to use a temporary placeholder integer (like 1 or 100 or something), then return to this task once you have demonstrated your ability to append records to the "Data" sheet.
 
-> NOTE: for the basic project requirements, it is safe to assume it is not possible for existing records to be reordered or removed or deleted.
-
 The `timestamp` should be the date and time when the form was submitted, formatted in a human-friendly way.
 
 > HINT: you might need to search the Internet for "how to get the current date and time in VBA" or "excel vba timestamp" :smiley_cat:
@@ -85,6 +83,8 @@ In the first row of the "Data" sheet, manually create a blank table to store the
 When the user submits information via the user interface, the program should append a corresponding record to the "Data" sheet. For subsequent form submissions, the existing data should remain intact, and the new data should be written on the next available row.
 
 ![](/img/projects/simple-system/writing-records-autoincrement.png)
+
+> NOTE: for the basic project requirements, it is safe to assume it is not possible for existing records to be reordered or removed or deleted.
 
 The data should persist even after the workbook is closed and re-opened.
 
