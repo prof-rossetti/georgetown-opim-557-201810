@@ -5,6 +5,7 @@
 name | description
 --- | ---
 [`CommandButton`](command-buttons.md) | A clickable button.
+`TextBox` | A free-response text input.
 [`ComboBox`](combo-boxes.md) | A drop-down menu which allows the user to choose one option from a provided list.
 [`ListBox`](list-boxes.md) | A picker menu which allows the user to choose one option from a provided list.
 [`SpinButton`](spin-buttons.md) | A set of arrows which allow the user to increment or decrement an integer value.
