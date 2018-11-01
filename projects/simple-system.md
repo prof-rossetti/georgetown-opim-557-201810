@@ -126,7 +126,7 @@ Additionally, the professor reserves the right to award extra credit for submiss
 
 > WARNING: This challenge is Optional. Only attempt this challenge if/once you have successfully completed all other basic project requirements. Prefer to submit a project which perfectly meets basic requirements over a project which attempts to address this challenge but fails to perfectly meet all basic requirements.
 
-Revise the original assumption about records not being able to be reordered, removed, moved, or deleted. Suppose instead records can be deleted.
+Revise the original assumption about records not being able to be reordered, removed, or deleted. Suppose instead records can at least be deleted.
 
 Optionally create a mechanism for an administrator to use a different admin interface to "delete" a record, given its identifier. Or mimic this process by manually deleting a record from the "Data" sheet.
 
@@ -136,4 +136,4 @@ For example:
 
   1. Suppose the form is submitted three times, writing three records with identifiers `1`, `2`, and `3`, respectively.
   2. Then the admin uses the admin interface to **delete record #2**.
-  3. Even though there are now only two remaining records on the "Data" sheet, the next time the form is submitted, the program should still be setting the next auto-incremented identifier as `4`.
+  3. If no records had been deleted, the next identifier value would have been `4`. Even though there are now only two remaining records (`1` and `3`), the next time the form is submitted, the next identifier value should still be `4`!.
