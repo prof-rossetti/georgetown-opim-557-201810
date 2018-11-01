@@ -30,11 +30,12 @@ On the "Prompt" sheet, describe in English your chosen business prompt, includin
 
 ### User Interface Design Requirements
 
-When the user opens the workbook, they should see the user interface, either on the "Interface" sheet, or on a separate User Form displayed in-front of or instead of the "Interface" sheet. If possible, they should not be able to see the "Data" sheet.
+When the user opens the workbook, they should see the user interface, either on the "Interface" sheet, or on a separate User Form displayed in-front of or instead of the "Interface" sheet. As much as possible, they should not be aware of, or otherwise be able to view or edit, the "Data" sheet.
 
 The user interface should look clean and organized.
 
 The user interface should reflect reasonable choices about which interface elements/controls to use to capture each respective information input (i.e. using a Toggle Button instead of a Text Box for the purpose of capturing a boolean value).
+
 
 ### Information Input Requirements
 
@@ -92,8 +93,6 @@ The data should persist even after the workbook is closed and re-opened.
 The program should provide **clear written and visual instructions** to help the user understand how to use the system as desired.
 
 The program should run without error and be free of any idiosyncracies or confusing behavior.
-
-As much as possible, the program should prevent the end user from becoming aware of, or otherwise being able to view or edit, information on the "Data" sheet.
 
 ## Submission Instructions
 
