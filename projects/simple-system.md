@@ -83,7 +83,7 @@ In the first row of the "Data" sheet, manually create a blank table to store the
 
 ![](/img/projects/simple-system/records-sheet-setup.png)
 
-> NOTE: once you set up the headers, you shouldn't have to do it again.
+> NOTE: once you set up the headers, you shouldn't need to do it again. Setting them up manually is sufficient. Setting them up programmatically is acceptable but not necessary.
 
 When the user submits information via the user interface, the program should append a corresponding record to the "Data" sheet. For subsequent form submissions, the existing data should remain intact, and the new data should be written on the next available row.
 
