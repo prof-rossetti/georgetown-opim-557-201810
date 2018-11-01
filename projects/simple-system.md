@@ -113,18 +113,18 @@ Business Prompt | 10%
 User Interface Design | 10%
 Information Inputs | 20%
 Information Storage | 20%
-Information Outputs | 30% (10% for capturing user inputs, 10% for generating the proper `id`, 10% for generating the proper `timestamp`)
+Information Outputs | 30% (10% inputs, 10% `id`, 10% `timestamp`)
 User Experience | 10%
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
 
-Additionally, the professor reserves the right to award extra credit for successful implementation of the Optional Further Exploration Challenge (below).
+Additionally, the professor reserves the right to award extra credit for submissions which exceed expectations, and/or submissions with successful implementation of the optional Further Exploration Challenge (below).
 
 <hr>
 
-## Optional Further Exploration Challenge
+## Further Exploration Challenge (Optional)
 
-> WARNING: only attempt this challenge if/once you have successfully completed all the basic project requirements.
+> WARNING: This challenge is Optional. Only attempt this challenge if/once you have successfully completed all other basic project requirements. Prefer to submit a project which perfectly meets basic requirements over a project which attempts to address this challenge but fails to perfectly meet all basic requirements.
 
 Revise the original assumption about records not being able to be reordered, removed, moved, or deleted. Suppose instead records can be deleted.
 
