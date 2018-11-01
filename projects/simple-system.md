@@ -13,7 +13,7 @@
 
 ## Instructions
 
-Create a new macro-enabled workbook named **`netid`-simple-system.xlsm**, where `netid` is your university-issued net identifier (i.e. the first part of your university-issued email address).
+Create a new macro-enabled workbook named "`netid`-simple-system.xlsm", where `netid` is your university-issued net identifier (i.e. the first part of your university-issued email address).
 
 Rename the first sheet to "Prompt". Create new blank worksheets called "Interface" and "Data", respectively.
 
@@ -95,7 +95,7 @@ The data should persist even after the workbook is closed and re-opened.
 
 ### User Experience Requirements
 
-The program should provide **clear written and visual instructions** to help the user understand how to use the system as desired.
+The program should provide clear written and visual instructions to help the user understand how to use the system as desired.
 
 The program should run without error and be free of any idiosyncracies or confusing behavior.
 
@@ -124,7 +124,7 @@ Additionally, the professor reserves the right to award extra credit for submiss
 
 ## Further Exploration Challenge (Optional)
 
-> WARNING: This challenge is Optional. Only attempt this challenge if/once you have successfully completed all other basic project requirements. Prefer to submit a project which perfectly meets basic requirements over a project which attempts to address this challenge but fails to perfectly meet all basic requirements.
+> WARNING: This challenge is optional. Only attempt this challenge if/once you have successfully completed all other basic project requirements. Prefer to submit a project which perfectly meets basic requirements over a project which attempts to address this challenge but fails to perfectly meet all basic requirements.
 
 Revise the original assumption about records not being able to be reordered, removed, or deleted. Suppose instead records can at least be deleted.
 
@@ -135,5 +135,5 @@ Does your program still operate as expected? Ensure that the next time the form 
 For example:
 
   1. Suppose the form is submitted three times, writing three records with identifiers `1`, `2`, and `3`, respectively.
-  2. Then the admin uses the admin interface to **delete record #2**.
+  2. Then the admin uses the admin interface to delete record #2.
   3. If no records had been deleted, the next identifier value would have been `4`. Even though there are now only two remaining records (`1` and `3`), the next time the form is submitted, the next identifier value should still be `4`!.
