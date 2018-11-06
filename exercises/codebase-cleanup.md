@@ -7,13 +7,13 @@
 
 ## Instructions
 
-So, you've done the ["ActiveX Controls"](/exercises/activex-controls.md) Exercise, right? Chances are your solution might contain some duplicate code, especially for the "OptionButton" and "Checkbox" challenges. Your mission for this exercise is to **remove as much code duplication as possible** from the original exercise solution.
+So, you've completed the ["ActiveX Controls"](/exercises/activex-controls.md) exercise, and your original solution most likely contains duplicate code terms and expressions, especially around the OptionButton and Checkbox challenges (see "Original" code examples below).
 
-> HINT: you'll need to define and invoke your own custom function(s) and/or sub-procedures which pass-in parameter(s).
+Your mission for this new exercise is to **remove as much code duplication as possible** from the original exercise solution. (see "Simplified" code examples below).
 
-If you have an existing solution workbook, copy and save a new version named something like "activex-cleanup.xlsm", so you will be free to work on this new exercise without messing up the solution to the previous exercise. Otherwise, create a new workbook and quickly set up spin buttons 1-4 and option buttons 1-4, and setup your new workbook with the example "before" code (below).
+If you have an existing workbook, copy and save a new version named something like "codebase-cleanup.xlsm", so you will be free to work on this new exercise without messing up the solution to the previous exercise. Otherwise, consider beginning fresh with this [starter workbook](/exercises/codebase-cleanup/codebase-cleanup-starter.xlsm).
 
-## Example Solutions
+## Examples
 
-  + OptionButton Challenge: [Before](/exercises/codebase-cleanup/radios-before.vb) | [After](/exercises/codebase-cleanup/radios-after.vb)
-  + Checkbox Challenge: [Before](/exercises/codebase-cleanup/checks-before.vb) | [After](/exercises/codebase-cleanup/checks-after.vb)
+  + OptionButton Solution: [Original](/exercises/codebase-cleanup/options-original.vb) --> [Simplified](/exercises/codebase-cleanup/options-simplified.vb)
+  + Checkbox Solution: [Original](/exercises/codebase-cleanup/checks-original.vb) --> [Simplified](/exercises/codebase-cleanup/checks-simplified.vb) --> [Simplified Further](/exercises/codebase-cleanup/checks-simplified-further.vb) :smiley_cat:
