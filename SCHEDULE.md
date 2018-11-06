@@ -40,7 +40,7 @@
 
 ### Class 5
 
-  + Topics: Code Simplification, System Maintenance, Quality Control
+  + Topics: [Code Simplification and Refactoring](/notes/information-systems/code-simplification.md), System Maintenance and Quality Control
   + VBA Programming: [Functions](/notes/visual-basic/functions.md), [Modules](/notes/visual-basic/modules.md)
   + Exercise: ["Codebase Cleanup"](/exercises/codebase-cleanup.md)
 
