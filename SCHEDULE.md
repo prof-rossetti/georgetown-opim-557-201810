@@ -18,7 +18,7 @@
 
 ### Class 2
 
-  + Topics: User Experience and Interface Design
+  + Topics: [User Experience](/notes/information-systems/user-experience.md) and User Interface Design
   + Interface Elements (2a): [Combo Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [List Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [Scroll Bars](/notes/ms-excel/activex-controls/scroll-bars.md), [Spin Buttons](/notes/ms-excel/activex-controls/spin-buttons.md)
   + VBA Programming (2a): [Variables](/notes/visual-basic/variables.md), Basic [Datatypes](/notes/visual-basic/datatypes.md) ([Strings](/notes/visual-basic/datatypes/strings.md), Numbers, Booleans)
   + Interface Elements (2b): [Check Boxes](/notes/ms-excel/activex-controls/check-boxes.md), [Option Buttons](/notes/ms-excel/activex-controls/option-buttons.md), [Toggle Buttons](/notes/ms-excel/activex-controls/toggle-buttons.md)
