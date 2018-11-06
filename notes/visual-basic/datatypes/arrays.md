@@ -46,6 +46,6 @@ Once you have studied [loops](../loops.md), you can use a `For Each` loop to ite
 Dim Team As Variant ' use Variant datatype instead of String datatype to avoid error. this line is only necessary if you have "Option Explicit" enabled.
 
 For Each Team In Teams
-  MsgBox (Team)
+    MsgBox (Team)
 Next Team
 ```

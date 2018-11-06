@@ -18,7 +18,7 @@
 
 ### Class 2
 
-  + Topics: User Experience and Interface Design
+  + Topics: [User Experience](/notes/information-systems/user-experience.md) and User Interface Design
   + Interface Elements (2a): [Combo Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [List Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [Scroll Bars](/notes/ms-excel/activex-controls/scroll-bars.md), [Spin Buttons](/notes/ms-excel/activex-controls/spin-buttons.md)
   + VBA Programming (2a): [Variables](/notes/visual-basic/variables.md), Basic [Datatypes](/notes/visual-basic/datatypes.md) ([Strings](/notes/visual-basic/datatypes/strings.md), Numbers, Booleans)
   + Interface Elements (2b): [Check Boxes](/notes/ms-excel/activex-controls/check-boxes.md), [Option Buttons](/notes/ms-excel/activex-controls/option-buttons.md), [Toggle Buttons](/notes/ms-excel/activex-controls/toggle-buttons.md)
@@ -40,14 +40,14 @@
 
 ### Class 5
 
-  + Topics: Code Simplification, System Maintenance, Quality Control
-  + VBA Programming: Functions, Modules
-  + Exercise: "Codebase Cleanup"
+  + Topics: [Code Simplification and Refactoring](/notes/information-systems/code-simplification.md), System Maintenance and Quality Control
+  + VBA Programming: [Functions](/notes/visual-basic/functions.md), [Modules](/notes/visual-basic/modules.md)
+  + Exercise: ["Codebase Cleanup"](/exercises/codebase-cleanup.md)
 
 ### Class 6
 
-  + VBA Programming: Iteration (Loops, Arrays)
-  + Exercise: "Processing CSV Strings"
+  + VBA Programming: Iteration ([Loops](/notes/visual-basic/loops.md), [Arrays](/notes/visual-basic/datatypes/arrays.md))
+  + Exercise: ["Processing CSV Strings"](/exercises/processing-csv-strings.md)
 
 ### Class 7
 

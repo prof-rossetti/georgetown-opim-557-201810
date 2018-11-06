@@ -32,7 +32,7 @@ Code in `Module1`:
 
 ```vb
 Public Sub DisplayMessage(ByVal MyMessage As String)
-  MsgBox(MyMessage)
+    MsgBox(MyMessage)
 End Sub
 ```
 
@@ -40,7 +40,7 @@ Code in `Sheet1`:
 
 ```vb
 Private Sub CommandButton1_Click()
-  Call DisplayMessage("HELLO FROM SHEET 1")
+    Call DisplayMessage("HELLO FROM SHEET 1")
 End Sub
 ```
 
@@ -48,7 +48,7 @@ Code in `Sheet2`:
 
 ```vb
 Private Sub CommandButton1_Click()
-  Call DisplayMessage("HELLO FROM SHEET 2")
+    Call DisplayMessage("HELLO FROM SHEET 2")
 End Sub
 ```
 

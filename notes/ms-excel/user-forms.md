@@ -53,3 +53,30 @@ To hide:
 ```vb
 UserForm1.Hide
 ```
+
+<hr>
+
+## Multi-page Objects
+
+Insert a MultiPage object onto a User Form to create multiple layouts accessible at different times in the same space.
+
+### Events
+
+The MultiPage object has its own events:
+
+name | description
+--- | ---
+`Enter` | Triggers when the multi-page object is first launched.
+`Change` | Triggers when the page changes.
+
+### Navigation
+
+When navigating across different pages, set the `MultiPage.Value` as the (zero-based) index number of the page you'd like to navigate to. For example:
+
+```vb
+UserForm1.MultiPage.Value = 0 ' DISPLAY PAGE 1
+
+UserForm1.MultiPage.Value = 1 ' DISPLAY PAGE 2
+
+UserForm1.MultiPage.Value = 2 ' DISPLAY PAGE 3
+```

@@ -1,9 +1,11 @@
 # Acknowledgements
 
-These materials have been adapted from the [Fall 2017](https://github.com/prof-rossetti/georgetown-opim-557-201710) and [Spring 2018](https://github.com/prof-rossetti/georgetown-opim-557-201803) semesters.
+These materials have been adapted from the [Fall 2017](https://github.com/prof-rossetti/georgetown-opim-557-201710) and [Spring 2018](https://github.com/prof-rossetti/georgetown-opim-557-201803) semesters. Special thanks to Professor Robin Dillon-Merrill for sharing lecture notes and example files from previous semesters, and to all the Georgetown MBA students who reviewed these materials and provided feedback. :pray:
 
-Special thanks to Professor Robin Dillon-Merrill for sharing lecture notes and example files from previous semesters, and to all the Georgetown MBA students who reviewed these materials and provided feedback. :pray:
+## Other Courses by Professor Rossetti
 
+  + [Programming in Python & Fundamentals of Software Development](https://github.com/prof-rossetti/nyu-info-2335-201805)
+  + [Fundamentals of Internet Programming](https://github.com/prof-rossetti/southernct-csc-443-201701)
 
 ## Additional Resources
 

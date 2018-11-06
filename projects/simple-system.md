@@ -2,9 +2,6 @@
 
 > The Simple System acts as an introduction to information systems, software application development, programming with VBA in MS Excel, user interface design, and data management. Students will create an interactive GUI application which accepts user form inputs and saves corresponding records in a separate worksheet.
 
-> Difficulty Level: `Intro`.
-> Estimated lines of functional code: `40-60`.
-
 
 ## Learning Objectives
 
