@@ -13,7 +13,9 @@ Your mission for this new exercise is to **remove as much code duplication as po
 
 If you have an existing workbook, copy and save a new version named something like "codebase-cleanup.xlsm", so you will be free to work on this new exercise without messing up the solution to the previous exercise. Otherwise, consider beginning fresh with this [starter workbook](/exercises/codebase-cleanup/codebase-cleanup-starter.xlsm).
 
-## Examples
+## Example Solutions
+
+> SPOILER ALERT: only view the "Simplified" code once you have analyzed the "Original" code and attempted to simplify it on your own.
 
   + OptionButton Solution: [Original](/exercises/codebase-cleanup/options-original.vb) --> [Simplified](/exercises/codebase-cleanup/options-simplified.vb)
   + Checkbox Solution: [Original](/exercises/codebase-cleanup/checks-original.vb) --> [Simplified](/exercises/codebase-cleanup/checks-simplified.vb) --> [Simplified Further](/exercises/codebase-cleanup/checks-simplified-further.vb) :smiley_cat:
