@@ -1,6 +1,6 @@
 # Refactoring
 
-The term **refactoring** refers to a process of simplifying a system's source code with the goal of removing duplication. During the refactoring process, developers strive to adhere to the "DRY" principle, which stands for "Don't Repeat Yourself", as well as the "Single Responsibility Principle".
+The term **refactoring** refers to a process of simplifying a system's source code with the goal of removing duplication. During the refactoring process, developers strive to adhere to the **DRY Principle** (which stands for "Don't Repeat Yourself"), as well as the **Single Responsibility Principle** (which says each module, class, or function of a program should have one and only one job, i.e. one logical responsibility).
 
 ## Benefits of Refactoring
 
