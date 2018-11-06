@@ -41,12 +41,12 @@
 ### Class 5
 
   + Topics: Code Simplification, System Maintenance, Quality Control
-  + VBA Programming: Functions, Modules
+  + VBA Programming: [Functions](/notes/visual-basic/functions.md), [Modules](/notes/visual-basic/modules.md)
   + Exercise: "Codebase Cleanup"
 
 ### Class 6
 
-  + VBA Programming: Iteration (Loops, Arrays)
+  + VBA Programming: Iteration ([Loops](/notes/visual-basic/loops.md), [Arrays](/notes/visual-basic/datatypes/arrays.md))
   + Exercise: "Processing CSV Strings"
 
 ### Class 7
