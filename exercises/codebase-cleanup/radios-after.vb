@@ -22,9 +22,7 @@ Private Sub HandleRadioClick(ByVal MyRadio As Object)
     Dim OptGrpCell As Range
     Set OptGrpCell = Range("G9")
 
-    MsgBox ("You have selected: " & MyRadio.Caption & _
-            ". Updating the value of cell: " & OptGrpCell.Address & "..." _
-    )
+    MsgBox ("You have selected: " & MyRadio.Caption & _ ". Updating the value of cell: " & OptGrpCell.Address & "..." _)
 
     OptGrpCell.Value = MyRadio.Caption
 End Sub

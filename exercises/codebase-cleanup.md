@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 
-  1. Find practical applications for learning new programming concepts like custom functions with parameters.
+  1. Find practical applications for learning new programming concepts like custom functions and sub-procedures with parameters.
   2. Learn techniques for improving system maintainability and quality control.
 
 ## Instructions
@@ -15,5 +15,5 @@ If you have an existing solution workbook, copy and save a new version named som
 
 ## Example Solutions
 
-  + OptionButton Challenge: [Before](/exercises/codebase-cleanup/radios-before.vb) | [After](exercises/codebase-cleanup/radios-after.vb)
+  + OptionButton Challenge: [Before](/exercises/codebase-cleanup/radios-before.vb) | [After](/exercises/codebase-cleanup/radios-after.vb)
   + Checkbox Challenge: [Before](/exercises/codebase-cleanup/checks-before.vb) | [After](/exercises/codebase-cleanup/checks-after.vb)
