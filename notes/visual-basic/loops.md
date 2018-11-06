@@ -27,8 +27,8 @@ Dim Counter As Integer
 Counter = 1
 
 Do While Counter <= 5
-  MsgBox("The counter's value is currently: " & Counter)
-  Counter = Counter + 1 ' increment to avoid an infinite loop!!!!
+    MsgBox("The counter's value is currently: " & Counter)
+    Counter = Counter + 1 ' increment to avoid an infinite loop!!!!
 Loop
 ```
 
@@ -41,8 +41,8 @@ Dim Counter As Integer
 Counter = 1
 
 Do Until Counter = 5
-  MsgBox("The counter's value is currently: " & Counter)
-  Counter = Counter + 1 ' increment to avoid an infinite loop!!!!
+    MsgBox("The counter's value is currently: " & Counter)
+    Counter = Counter + 1 ' increment to avoid an infinite loop!!!!
 Loop
 ```
 
@@ -54,7 +54,7 @@ This kind of loop will repeat a statement a specific amount of times. The counte
 Dim Counter As Integer
 
 For Counter = 1 To 5 ' specify the number of times this loop will repeat
-  MsgBox("The counter's value is currently: " & Counter)
+    MsgBox("The counter's value is currently: " & Counter)
 Next Counter ' increment the Counter's value and execute the next iteration
 ```
 
@@ -69,7 +69,7 @@ Dim MyRange As Range
 Set MyRange = Range("A1:C5")
 
 For Each MyCell in MyRange.Cells
-  MyCell.Value = MyCell.Address ' an example of something to do with MyCell
+    MyCell.Value = MyCell.Address ' an example of something to do with MyCell
 Next
 ```
 

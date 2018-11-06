@@ -6,7 +6,7 @@ In Visual Basic, a [Function](https://docs.microsoft.com/en-us/dotnet/visual-bas
 
 ```vb
 Private Function MyMessage()
-  MyMessage = "My message is: Hello World"
+    MyMessage = "My message is: Hello World"
 End Function
 ```
 
@@ -22,19 +22,19 @@ When necessary and appropriate, specify one or more arguments (a.k.a. "parameter
 
 ```vb
 Private Function CustomMessage(ByVal SomeMessage As String)
-  CustomMessage = "The custom message is: " & SomeMessage
+    CustomMessage = "The custom message is: " & SomeMessage
 End Function
 ```
 
 ```vb
 Private Function RectangleArea(ByVal Length As Integer, ByVal Width As Integer)
-  RectangleArea = Length * Width
+    RectangleArea = Length * Width
 End Function
 ```
 
 ```vb
 Private Function FullName(ByVal FirstName As String, ByVal LastName As String)
-  FullName = FirstName & " " & LastName
+    FullName = FirstName & " " & LastName
 End Function
 ```
 
