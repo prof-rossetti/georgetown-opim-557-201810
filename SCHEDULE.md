@@ -47,7 +47,7 @@
 ### Class 6
 
   + VBA Programming: Iteration ([Loops](/notes/visual-basic/loops.md), [Arrays](/notes/visual-basic/datatypes/arrays.md))
-  + Exercise: "Processing CSV Strings"
+  + Exercise: ["Processing CSV Strings"](/exercises/processing-csv-strings.md)
 
 ### Class 7
 
