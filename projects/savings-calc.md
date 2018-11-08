@@ -2,7 +2,7 @@
 
 > Adapted from a deliverable created by Professor Dillon-Merrill.
 
-Assume you own and operate a financial planning business which helps customers plan for retirement. Your objective is to build yourself a tool to automate the common calculations required to provide your clients with retirement savings advice. Specifically, the system should accept a number of information inputs representing the client's savings goals, and should produce an information output representing the amount of money the client can expect to have saved upon reaching retirement age.
+Assume you own and operate a financial planning business which helps customers plan for retirement. Your objective is to build yourself a tool to automate the common calculations required to provide your clients with retirement savings advice.
 
 ## Learning Objectives
 
@@ -11,35 +11,36 @@ Assume you own and operate a financial planning business which helps customers p
 
 ## Instructions
 
-Create a new macro-enabled workbook named **`net_id`-savings-calc.xlsm**, where `net_id` is your university-issued net identifier (i.e. the first part of your university-issued email address).
+Create a new macro-enabled workbook named "`netid`-simple-system.xlsm", where `netid` is your university-issued net identifier (i.e. the first part of your university-issued email address).
 
 Rename the first sheet to "Interface".
 
 Your submission should adhere to the following requirements, as detailed in the corresponding sections below:
 
-  + Information Requirements
-  + Interface Requirements
-  + Validation Requirements
-  + Calculation Requirements
-
+  + [Information Requirements](#information-requirements)
+  + [Interface Requirements](#interface-requirements)
+  + [Validation Requirements](#validation-requirements)
+  + [Calculation Requirements](#calculation-requirements)
 
 ### Information Requirements
 
-#### Information Inputs
+#### Inputs
 
 Your system should accept the following user inputs:
 
-  1. The client's current age.
-  2. The client's desired retirement age.
-  3. The client's current amount of savings (a.k.a. initial savings balance). Assume the client does not have any debt.
-  4. The amount of money the client plans to contribute to savings each year. Assume contributions are made at the end of each year, after interest has been accrued.
-  5. A projected annual growth rate for the client's savings (a.k.a the interest rate). Assume interest will compound on an annual basis (at the end of each year), not on a monthly basis.
+  1. The client's **current age**.
+  2. The client's **desired retirement age**.
+  3. The client's current amount of savings (i.e. **initial savings balance**). Assume the client does not have any debt.
+  4. The amount of money the client plans to contribute to savings each year (i.e. **annual contribution**). Assume contributions are made at the end of each year, after interest has been accrued.
+  5. A projected annual growth rate for the client's savings (i.e **annual interest rate**). Assume interest will compound on an annual basis (at the end of each year), not on a monthly basis.
+
+Example Inputs:
 
 ![a screenshot showing a message box displaying the user inputs](/img/projects/savings-calc/display-inputs.png)
 
-The table below provides a framework for you to translate these information inputs into VBA variables. However, don't feel obligated to declare the same datatypes, and depending on your interface there are situations where you might not be declaring datatypes at all.
+The table below provides a framework for you to translate these information inputs into VBA variables:
 
-info input | suggested variable name | variable datatype | example value
+Information Input | Example Variable Name | Example Variable Datatype | Example Value
 --- | ---  | ---  | ---
 Current Age | `Age` | `Integer` | `60`
 Desired Retirement Age | `RetirementAge` | `Integer` | `65`
@@ -47,68 +48,49 @@ Initial Savings Balance | `InitialBalance` | `Double` | `50000.00`
 Annual Savings Contribution | `AnnualContribution` | `Double` | `18000.00`
 Annual Savings Growth Rate (Interest Rate) | `InterestRate` | `Double` | `0.05`
 
-#### Information Outputs
+> NOTE: Depending on your interface, when declaring variables, it may be reasonable to declare different datatypes than those suggested above, or to not declare datatypes at all. Use your best judgement and go with what works.
+
+#### Outputs
 
 Your system should produce the following outputs:
 
-  1. The final savings balance at the end of the year when the client reaches the specified retirement age.
-  2. The portion of the final savings balance which was contributed directly by the client.
-  3. The portion of the final savings balance resulting from accrued interest on the principal.
+  1. The **final savings balance** at the end of the year when the client reaches the specified retirement age.
+  2. The portion of the final savings balance which was contributed directly by the client (i.e. **total savings contribution**).
+  3. The portion of the final savings balance resulting from accrued interest on the principal (i.e. **total interest accrued**).
+
+Example Outputs:
 
 ![a screenshot showing a message box displaying the final outputs](/img/projects/savings-calc/display-outputs.png)
 
-The table below provides a framework for you to translate these information inputs into VBA variables.
+The table below provides a framework for you to translate these information inputs into VBA variables:
 
-info output | suggested variable name | variable datatype | example value
+Information Output | Example Variable Name | Example Datatype | Example Value
 --- | ---  | ---  | ---
 Final Savings Balance | `SavingsBalance` | `Double` | `189439.21`
 Total Savings Contribution | `TotalContribution` | `Double` | `158000.00`
-Total Interest Accrued | `InterestAccrued` | `Double` | `31439.21`
+Total Interest Accrued | `AccruedInterest` | `Double` | `31439.21`
+
+> NOTE: Depending on your interface, when declaring variables, it may be reasonable to declare different datatypes than those suggested above, or to not declare datatypes at all. Use your best judgement and go with what works.
 
 See the "Calculation Requirements" section below for more information about how to calculate these information outputs.
-
-
-
-
-
-
 
 ### Interface Requirements
 
 Provide written instructions which explain how to use the tool.
 
-Use cells and/or input boxes and/or ActiveX Controls to capture user inputs, as appropriate. You may draw inspiration from any of these [example interfaces](/projects/savings-calc/example-interfaces.md). But beware, some interface elements may be more appropriate than others, and your job is to choose the interface elements that will provide the best user experience. If you end up using input boxes, make sure you handle situations where the user clicks "Cancel".
+Use any kind of interface you'd like cells and/or input boxes and/or ActiveX Controls to capture user inputs, as appropriate. You may draw inspiration from any of these [example interfaces](/projects/savings-calc/example-interfaces.md). But beware, some interface elements may be more appropriate than others, and your job is to choose the interface elements that will provide the best user experience. If you end up using input boxes, make sure you handle situations where the user clicks "Cancel".
 
 Regardless of how you choose to capture user inputs, make sure the user sees only properly-formatted values. Rates should be formatted with a percent sign (`%`) and dollar amounts should be formatted as USD with a dollar sign (`$`) and two decimal places.
 
-Use an ActiveX command button control that when clicked will read and validate the inputs, perform the calculations, and produce the outputs. Outputs should also be properly formatted (see above).
+Include a button control that when clicked will: read and validate the inputs, perform the calculations, and produce the outputs. Outputs should also be properly formatted (see above).
 
-At no time should previously-generated outputs be visible at the same time as yet-to-be used inputs. The user should not be able to take a screenshot of the application which depicts mismatching inputs and output values. If you have questions about this, ask the professor for clarifications.
-
-
-
-
-
-
-
-
+If inputs and outputs are ever visible at the same time, they should always correspond with eachother. In other words, previously-generated outputs should not be visible at the same time as yet-to-be used inputs. Practically, this means you should clear output values if the user starts to adjust any of the input values.
 
 ### Validation Requirements
 
-Do your best to prevent the user from inputting invalid values (i.e. entering a value of the wrong data type, entering a value outside of a reasonable range of accepted values, etc.).
+Do your best to prevent the user from inputting values which are invalid (e.g. entering a value of the wrong data type, entering a value outside of a reasonable range of accepted values, etc.).
 
-If a user does enter an invalid input, exit from the program and display a friendly message describing what went wrong and how the user can fix the problem.
-
-
-
-
-
-
-
-
-
-
-
+The user should never experience runtime errors or be prompted to "debug" the code. If the program detects an invalid user input, it should immediately stop execution and display a friendly message to the user describing what went wrong and how the user can fix the problem.
 
 ### Calculation Requirements
 
@@ -124,13 +106,13 @@ The amount of accrued interest for any given year is equal to the initial saving
 
 The initial savings balance for any given year is equal to the ending savings balance from the previous year.
 
-#### Final Outputs
+#### Calculating Final Outputs
 
-The final savings balance output by the system should reflect the balance at the end of the year when the client hits the desired retirement age. For example, if the desired retirement age is 65, the program should output the savings balance at the end of that year, after that year's interest accrual and savings contribution are calculated (see "Annual Calculations" above).
+The final savings balance is the balance at the end of the year when the client hits the desired retirement age. For example, if the desired retirement age is 65, the program should output the savings balance at the end of that year, after that year's interest accrual and savings contribution are calculated (see "Annual Calculations" above).
 
-The final amount of interest accrued is equal to the sum of interest accrued during each year.
+The final amount of accrued interest is equal to the sum of interest accrued during each year between the user's current age and desired retirement age, inclusive.
 
-The final amount of principal contributed is equal to the very first savings balance input by the user, plus the sum of all end-of-year contributions. The amount of principal is also alternatively equal to the final savings balance, less the final amount of accrued interest.
+The final amount of contributed principal is equal to the initial savings balance plus the sum of all end-of-year contributions, which is also equal to the final savings balance less the final amount of accrued interest.
 
 
 
@@ -145,23 +127,51 @@ Upload your workbook file [to Canvas](https://georgetown.instructure.com/courses
 
 ## Evaluation Methodology
 
-Submissions will be evaluated based on ability to meet each of the component requirements (see corresponding sections above for detailed instructions):
+Submissions will be evaluated based on their ability to meet each of the component requirements (see corresponding sections above for detailed instructions).
 
-Category | Weight
+Summary:
+
+Requirements Category | Weight
 --- | ---
-Information Requirements | 30%
-Interface Requirements | 25%
-Validation Requirements | 25%
-Calculation Requirements | 20%
+Information | 30%
+Interface | 25%
+Validation | 25%
+Calculation | 20%
+
+Details:
+
+Requirements Category | System Requirement | Weight
+-- | -- | --
+Information | Captures inputs. | 0.10
+Information | Displays final outputs. | 0.10
+Information | Formats inputs and outputs (USD, pct, etc.). | 0.10
+Interface | Provides written user instructions. | 0.08
+Interface | Calculations triggered by button-click event. | 0.05
+Interface | Reasonable user experience, with instructional clarity, lacking runtime errors. | 0.12
+Validation | Validates age inputs. | 0.07
+Validation | Validates age less than retirement age. | 0.05
+Validation | Validates currency inputs. | 0.07
+Validation | Validates percentage input. | 0.06
+Calculation | Calculates final outputs with accuracy. | 0.20
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
 
-The professor reserves the right to award extra credit in recognition of particularly effective user experiences. Common elements that may be eligible for extra credit include: simplicity of user interface, clarity of user instructions, presence of auto-updating charts and graphics, and the ability to programmatically and iteratively write annual calculation details to a separate sheet.
+Additionally, the professor reserves the right to award extra credit for submissions which exceed expectations, and/or submissions which demonstrate successful implementation of each "Further Exploration Challenge" (see below).
 
 <hr>
 
-## Further Exploration Challenge: Probabilistic Annual Returns (Optional)
+## Further Exploration Challenges (Optional)
 
 > WARNING: This challenge is optional. Only attempt this challenge if/once you have successfully completed all other basic project requirements. Prefer to submit a project which perfectly meets basic requirements over a project which attempts to address this challenge but fails to perfectly meet all basic requirements.
 
-Instructions TBA
+### Writing Annual Data to Sheet
+
+Challenge TBA
+
+### Probabilistic Annual Returns
+
+Challenge TBA
+
+### Charts and Graphs
+
+Challenge TBA
