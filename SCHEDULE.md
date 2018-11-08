@@ -4,7 +4,7 @@
 
 ### Prerequisites
 
-  + Topics: [Information Systems](/notes/information-systems/README.md), Decision-Support Systems, Process Automation
+  + Topics: [Information Systems and Decision-Support Systems](/notes/information-systems/README.md), Process Automation
   + VBA Programming: [Getting Started](/notes/visual-basic/getting-started.md), [Debugging](/notes/visual-basic/debugging.md), [Macros](/notes/visual-basic/macros.md)
   + Exercise: ["Hello Macro"](/exercises/hello-macro.md)
 
