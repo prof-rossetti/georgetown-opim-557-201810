@@ -52,7 +52,7 @@
 ### Class 7
 
   + Topics: Probability, Risk, Uncertainty
-  + Project: "Retirement Savings Calculator"
+  + Project: ["Retirement Savings Calculator"](/projects/savings-calc.md)
 
 <hr>
 
