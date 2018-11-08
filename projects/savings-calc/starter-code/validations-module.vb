@@ -7,18 +7,18 @@
 ' Note: named statements like HandleInvalid (or whatever custom name you choose) help prevent code duplication.
 '
 
-' LogDatatype helps you understand the recognized datatype of the passed parameter value.
+' Helps you understand the recognized datatype of the passed parameter value.
 Public Sub LogDatatype(ByVal MyVal)
     MsgBox ("The value is: " & MyVal & " (" & TypeName(MyVal) & ").")
 End Sub
 
-' IsValidAge evaluates whether or not a given value looks like an age value.
-Public Function IsValidAge(ByVal MyVal)
+' Evaluates whether or not a given value looks like an age value.
+Public Function IsValidAge(ByVal MyVal) As Boolean
     Call LogDatatype(MyVal)
 
     If TypeName(MyVal) = "Double" Then ' expect numeric cell values to be doubles by default, even though some could really be integers
         If Int(MyVal) = MyVal Then ' now try to tell if the value is really an integer
-            If MyVal >= 18 And MyVal <= 120 Then ' include this business logic assumption about the age of our clients
+            If MyVal >= 18 And MyVal <= 120 Then ' include this example business logic assumption about the age of our clients
                 MsgBox ("Detected valid age: " & MyVal & ".")
                 IsValidAge = True
             Else
@@ -37,8 +37,8 @@ HandleInvalid:
     IsValidAge = False
 End Function
 
-' IsValidUSD evaluates whether or not a given value looks like a currency value.
-Public Function IsValidUSD(ByVal MyVal)
+' Evaluates whether or not a given value looks like a currency value.
+Public Function IsValidUSD(ByVal MyVal) As Boolean
     Call LogDatatype(MyVal)
 
     If TypeName(MyVal) = "Double" Or TypeName(MyVal) = "Currency" Then
@@ -58,9 +58,9 @@ HandleInvalid:
     IsValidUSD = False
 End Function
 
-' IsValidPct evaluates whether or not a given value looks like a percentage value.
+' Evaluates whether or not a given value looks like a percentage value.
 ' ... NOTE: the passed parameter should not include a percent sign
-Public Function IsValidPct(ByVal MyVal)
+Public Function IsValidPct(ByVal MyVal) As Boolean
     Call LogDatatype(MyVal)
 
     If TypeName(MyVal) = "Double" Then
@@ -80,8 +80,8 @@ HandleInvalid:
     IsValidPct = False
 End Function
 
-' AgesValid evaluates whether the retirement is older than the current age.
-Public Function AgesValid(ByVal MyAge As Integer, ByVal MyRetirementAge As Integer)
+' Evaluates whether the retirement age is older than the current age.
+Public Function AgesValid(ByVal MyAge As Integer, ByVal MyRetirementAge As Integer) As Boolean
     If MyAge > MyRetirementAge Then
         MsgBox ("Oh, please ensure the desired retirement age is older than the current age.")
         AgesValid = False
