@@ -56,6 +56,26 @@ UserForm1.Hide
 
 <hr>
 
+## User Form Controls
+
+User Form controls are similar to ActiveX Controls, but there are noticeable differences.
+
+For example, to populate the list of selectable options in a Combo Box on your User Form: instead of using the `ListFillRange` property like you would do for an ActiveX Control (which doesn't appear to be available for the User Form version of the control), you can programmatically set the `AddItem` property when the form is initialized (i.e. before it becomes visible to the user), like this:
+
+```vb
+' h/t: https://analysistabs.com/vba-code/excel-userform/combobox/
+Private Sub UserForm_Initialize()
+    ComboBox1.AddItem "My Option"
+    ComboBox1.AddItem "Other Option"
+End Sub
+```
+
+`Initialize` is an event that gets triggered when the User Form is first loaded/launched, so when we populate the Combo Box's selectable items during this event, they will appear for the user when the user sees the form.
+
+You will likely notice other differences for other controls as well.
+
+<hr>
+
 ## Multi-page Objects
 
 Insert a MultiPage object onto a User Form to create multiple layouts accessible at different times in the same space.
@@ -80,21 +100,3 @@ UserForm1.MultiPage.Value = 1 ' DISPLAY PAGE 2
 
 UserForm1.MultiPage.Value = 2 ' DISPLAY PAGE 3
 ```
-
-### Controls
-
-User Form controls are similar to ActiveX Controls, but there are noticeable differences.
-
-For example, to populate the list of selectable options in a Combo Box on your User Form: instead of using the `ListFillRange` property like you would do for an ActiveX Control (which doesn't appear to be available for the User Form version of the control), you can programmatically set the `AddItem` property when the form is initialized (i.e. before it becomes visible to the user), like this:
-
-```vb
-' h/t: https://analysistabs.com/vba-code/excel-userform/combobox/
-Private Sub UserForm_Initialize()
-    ComboBox1.AddItem "My Option"
-    ComboBox1.AddItem "Other Option"
-End Sub
-```
-
-`Initialize` is an event that gets triggered when the User Form is first loaded/launched, so when we populate the Combo Box's selectable items during this event, they will appear for the user when the user sees the form.
-
-You will likely notice other differences for other controls as well.
