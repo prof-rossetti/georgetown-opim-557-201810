@@ -18,7 +18,7 @@ Rename the first sheet to "Interface".
 Your submission should adhere to the following requirements, as detailed in the corresponding sections below:
 
   + [Information Requirements](#information-requirements)
-  + [User Interface and Experience (UI/UX) Requirements](#ui--ux-requirements)
+  + [User Interface and Experience (UI/UX) Requirements](#uiux-requirements)
   + [Validation Requirements](#validation-requirements)
   + [Calculation Requirements](#calculation-requirements)
 
