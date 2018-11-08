@@ -21,13 +21,7 @@ Worksheets("Sheet1").Range("A1").Value ' --> "Hello from Sheet 1"
 Worksheets("Sheet2").Range("A1").Value ' --> "Hello from Sheet 2"
 ```
 
-To detect the range of used cells on any given sheet, reference the `UsedRange` property:
-
-```vb
-Worksheets("Sheet1").UsedRange.Address ' --> $A$1:$L$36
-```
-
-> Warning: if a cell looks empty (i.e. it has no contents) but contains formatting, it will still be included in the `UsedRange`.
+> EDITOR'S NOTE: there was some content about a worksheet's Used Ranges here, but that content has moved [here](/notes/ms-excel/worksheets.md#), where it makes more contextual sense. Just know you can do anything with a Used Range that you could otherwise do with any Range object. Like display its address, count its rows, etc.
 
 ### Writing Values
 

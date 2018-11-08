@@ -40,6 +40,17 @@ To switch a user's active view to a given worksheet:
 Worksheets("Sheet3").Activate
 ```
 
+#### Used Range of Cells in a Worksheet
+
+To detect the range of used cells on any given sheet, reference the `UsedRange` property:
+
+```vb
+TypeName(Worksheets("Sheet1").UsedRange) ' --> Range
+Worksheets("Sheet1").UsedRange.Address ' --> $A$1:$L$36
+```
+
+> WARNING: A blank-looking cell without any contents but with some formatting will still be included in the Used Range.
+
 #### Looping Through Worksheets
 
 After you have studied [looping](/notes/visual-basic/loops.md) and [arrays](/notes/visual-basic/datatypes/arrays.md), you can apply the concepts to loop through a collection of worksheets:
