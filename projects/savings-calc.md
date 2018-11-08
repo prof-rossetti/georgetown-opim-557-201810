@@ -11,7 +11,7 @@ Assume you own and operate a financial planning business which helps customers p
 
 ## Instructions
 
-Create a new macro-enabled workbook named "`netid`-simple-system.xlsm", where `netid` is your university-issued net identifier (i.e. the first part of your university-issued email address).
+Create a new macro-enabled workbook named "`netid`-savings-calc.xlsm", where `netid` is your university-issued net identifier (i.e. the first part of your university-issued email address).
 
 Rename the first sheet to "Interface".
 
@@ -24,14 +24,14 @@ Your submission should adhere to the following requirements, as detailed in the 
 
 ### Information Requirements
 
-Regardless of how you choose to capture and display inputs and outputs, make sure the user sees only properly-formatted values. Rates should be formatted with a percent sign (`%`) and dollar amounts should be formatted as USD with a dollar sign (`$`) and two decimal places.
+Regardless of how you choose to capture and display inputs and outputs, make sure the user sees only properly-formatted values. Rates should be formatted with a percent sign (%) and dollar amounts should be formatted as USD with a dollar sign ($) and two decimal places.
 
 #### Inputs
 
 Your system should accept the following user inputs:
 
-  1. The client's **current age**.
-  2. The client's **desired retirement age**.
+  1. The client's **current age**, as a whole positive number.
+  2. The client's **desired retirement age**, as a whole positive number.
   3. The client's current amount of savings (i.e. **initial savings balance**). Assume the client does not have any debt.
   4. The amount of money the client plans to contribute to savings each year (i.e. **annual contribution**). Assume contributions are made at the end of each year, after interest has been accrued.
   5. A projected annual growth rate for the client's savings (i.e **annual interest rate**). Assume interest will compound on an annual basis (at the end of each year), not on a monthly basis.
@@ -48,7 +48,7 @@ Current Age | `Age` | `Integer` | `60`
 Desired Retirement Age | `RetirementAge` | `Integer` | `65`
 Initial Savings Balance | `InitialBalance` | `Double` | `50000.00`
 Annual Savings Contribution | `AnnualContribution` | `Double` | `18000.00`
-Annual Savings Growth Rate (Interest Rate) | `InterestRate` | `Double` | `0.05`
+Annual Savings Growth Rate (Interest Rate) | `AnnualRate` | `Double` | `0.05`
 
 > NOTE: Depending on your interface, when declaring variables, it may be reasonable to declare different datatypes than those suggested above, or to not declare datatypes at all. Use your best judgement and go with what works.
 
@@ -80,11 +80,11 @@ See the "Calculation Requirements" section below for more information about how 
 
 Provide written instructions which explain how to use the tool.
 
-Use any kind of interface you'd like (e.g. cells, input boxes, ActiveX Controls, user forms, etc.) to capture user inputs, as long as it is appropriate. You may draw inspiration from any of these [example interfaces](/projects/savings-calc/example-interfaces.md). But beware, some interface elements may be more appropriate than others, and your job is to choose the interface elements that will provide the best user experience. NOTE: If you end up using input boxes, make sure you handle situations where the user clicks "Cancel".
+Use any kind of interface you'd like (e.g. Cells, Input Boxes, ActiveX Controls, User Forms, etc.) to capture user inputs, as long as it is appropriate. You may draw inspiration from any of these [example interfaces](/projects/savings-calc/example-interfaces.md). But beware, some interface elements may be more appropriate than others, and your job is to choose the interface elements that will provide the best user experience. NOTE: If you end up using input boxes, make sure you handle situations where the user clicks "Cancel".
 
-Include a button control that when clicked will: read and validate the inputs, perform the calculations, and produce the outputs. Outputs should also be properly formatted (see above).
+Include a button control that when clicked will: read and validate the inputs, perform the calculations, and produce the outputs.
 
-If inputs and outputs are ever visible at the same time, they should always correspond with eachother. In other words, previously-generated outputs should not be visible at the same time as yet-to-be used inputs. Practically, this means you should clear output values if the user starts to adjust any of the input values.
+If inputs and outputs are ever visible at the same time, they should always correspond with eachother. In other words, previously-generated outputs should not be visible at the same time as yet-to-be used inputs. Practically, this means you should clear output values as soon as the user starts to adjust any of the input values.
 
 The user should never experience runtime errors or be prompted to "debug" the code.
 
@@ -136,7 +136,7 @@ Requirements Category | System Requirement | Weight
 Information | Captures inputs. | 0.10
 Information | Displays final outputs. | 0.10
 Information | Formats inputs and outputs (USD, pct, etc.). | 0.10
-UI/UX | Provides written user instructions. | 0.08
+UI/UX | Provides written user instructions and an interface with appropriate elements/controls. | 0.08
 UI/UX | Uses a button click event to trigger the calculation and display processes. | 0.05
 UI/UX | Provides a reasonable user experience, with instructional clarity, lacking runtime errors. | 0.12
 Validation | Validates age inputs. | 0.07
@@ -147,7 +147,7 @@ Calculation | Calculates final outputs with accuracy. | 0.20
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
 
-Additionally, the professor reserves the right to award extra credit for submissions which exceed expectations, and/or submissions which demonstrate successful implementation of each "Further Exploration Challenge" (see below).
+Additionally, the professor reserves the right to award extra credit for submissions which exceed expectations, and/or submissions which demonstrate successful implementation of each "Further Exploration Challenge" below.
 
 <hr>
 
