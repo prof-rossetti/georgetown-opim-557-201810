@@ -18,11 +18,13 @@ Rename the first sheet to "Interface".
 Your submission should adhere to the following requirements, as detailed in the corresponding sections below:
 
   + [Information Requirements](#information-requirements)
-  + [Interface Requirements](#interface-requirements)
+  + [User Interface and Experience (UI/UX) Requirements](#ui--ux-requirements)
   + [Validation Requirements](#validation-requirements)
   + [Calculation Requirements](#calculation-requirements)
 
 ### Information Requirements
+
+Regardless of how you choose to capture and display inputs and outputs, make sure the user sees only properly-formatted values. Rates should be formatted with a percent sign (`%`) and dollar amounts should be formatted as USD with a dollar sign (`$`) and two decimal places.
 
 #### Inputs
 
@@ -74,23 +76,23 @@ Total Interest Accrued | `AccruedInterest` | `Double` | `31439.21`
 
 See the "Calculation Requirements" section below for more information about how to calculate these information outputs.
 
-### Interface Requirements
+### UI/UX Requirements
 
 Provide written instructions which explain how to use the tool.
 
-Use any kind of interface you'd like cells and/or input boxes and/or ActiveX Controls to capture user inputs, as appropriate. You may draw inspiration from any of these [example interfaces](/projects/savings-calc/example-interfaces.md). But beware, some interface elements may be more appropriate than others, and your job is to choose the interface elements that will provide the best user experience. If you end up using input boxes, make sure you handle situations where the user clicks "Cancel".
-
-Regardless of how you choose to capture user inputs, make sure the user sees only properly-formatted values. Rates should be formatted with a percent sign (`%`) and dollar amounts should be formatted as USD with a dollar sign (`$`) and two decimal places.
+Use any kind of interface you'd like (e.g. cells, input boxes, ActiveX Controls, user forms, etc.) to capture user inputs, as long as it is appropriate. You may draw inspiration from any of these [example interfaces](/projects/savings-calc/example-interfaces.md). But beware, some interface elements may be more appropriate than others, and your job is to choose the interface elements that will provide the best user experience. NOTE: If you end up using input boxes, make sure you handle situations where the user clicks "Cancel".
 
 Include a button control that when clicked will: read and validate the inputs, perform the calculations, and produce the outputs. Outputs should also be properly formatted (see above).
 
 If inputs and outputs are ever visible at the same time, they should always correspond with eachother. In other words, previously-generated outputs should not be visible at the same time as yet-to-be used inputs. Practically, this means you should clear output values if the user starts to adjust any of the input values.
 
+The user should never experience runtime errors or be prompted to "debug" the code.
+
 ### Validation Requirements
 
 Do your best to prevent the user from inputting values which are invalid (e.g. entering a value of the wrong data type, entering a value outside of a reasonable range of accepted values, etc.).
 
-The user should never experience runtime errors or be prompted to "debug" the code. If the program detects an invalid user input, it should immediately stop execution and display a friendly message to the user describing what went wrong and how the user can fix the problem.
+If the program doesn't completely prevent the user from submitting invalid inputs, the program must validate those inputs. If the program detects an invalid user input, it should immediately stop execution and display a friendly message to the user describing what went wrong and how the user can fix the problem.
 
 ### Calculation Requirements
 
@@ -127,27 +129,16 @@ Upload your workbook file [to Canvas](https://georgetown.instructure.com/courses
 
 ## Evaluation Methodology
 
-Submissions will be evaluated based on their ability to meet each of the component requirements (see corresponding sections above for detailed instructions).
-
-Summary:
-
-Requirements Category | Weight
---- | ---
-Information | 30%
-Interface | 25%
-Validation | 25%
-Calculation | 20%
-
-Details:
+Submissions will be evaluated based on their ability to meet each of the component requirements (see corresponding sections above):
 
 Requirements Category | System Requirement | Weight
 -- | -- | --
 Information | Captures inputs. | 0.10
 Information | Displays final outputs. | 0.10
 Information | Formats inputs and outputs (USD, pct, etc.). | 0.10
-Interface | Provides written user instructions. | 0.08
-Interface | Calculations triggered by button-click event. | 0.05
-Interface | Reasonable user experience, with instructional clarity, lacking runtime errors. | 0.12
+UI/UX | Provides written user instructions. | 0.08
+UI/UX | Calculations triggered by button-click event. | 0.05
+UI/UX | Reasonable user experience, with instructional clarity, lacking runtime errors. | 0.12
 Validation | Validates age inputs. | 0.07
 Validation | Validates age less than retirement age. | 0.05
 Validation | Validates currency inputs. | 0.07

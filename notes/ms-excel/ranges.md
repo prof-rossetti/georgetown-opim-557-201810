@@ -21,7 +21,7 @@ Worksheets("Sheet1").Range("A1").Value ' --> "Hello from Sheet 1"
 Worksheets("Sheet2").Range("A1").Value ' --> "Hello from Sheet 2"
 ```
 
-> EDITOR'S NOTE: there was some content about a worksheet's Used Ranges here, but that content has moved [here](/notes/ms-excel/worksheets.md#), where it makes more contextual sense. Just know you can do anything with a Used Range that you could otherwise do with any Range object. Like display its address, count its rows, etc.
+> EDITOR'S NOTE: there was some content about a worksheet's Used Ranges here, but that content has moved [here](/notes/ms-excel/worksheets.md#used-range-of-cells-in-a-worksheet), where it makes more contextual sense. Just know you can do anything with a Used Range that you could otherwise do with any Range object. Like display its address, count its rows, etc.
 
 ### Writing Values
 
