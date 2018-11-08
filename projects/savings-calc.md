@@ -153,7 +153,7 @@ Additionally, the professor reserves the right to award extra credit for submiss
 
 ## Further Exploration Challenges (Optional)
 
-> WARNING: This challenge is optional. Only attempt this challenge if/once you have successfully completed all other basic project requirements. Prefer to submit a project which perfectly meets basic requirements over a project which attempts to address this challenge but fails to perfectly meet all basic requirements.
+> WARNING: These challenges are optional. Only attempt a challenge if/once you have successfully completed all other basic project requirements. Prefer to submit a project which perfectly meets basic requirements over a project which attempts to address a challenge but fails to perfectly meet all basic requirements.
 
 ### Writing Annual Data to Sheet
 
