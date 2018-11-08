@@ -36,13 +36,13 @@
 
 <hr>
 
+## Unit II: Financial Modeling
+
 ### Class 5
 
   + Topics: Quality Control, [Code Simplification and Refactoring](/notes/visual-basic/refactoring.md)
   + VBA Programming: [Functions](/notes/visual-basic/functions.md), [Modules](/notes/visual-basic/modules.md)
   + Exercise: ["Codebase Cleanup"](/exercises/codebase-cleanup.md)
-
-## Unit II: Financial Modeling
 
 ### Class 6
 
@@ -52,6 +52,7 @@
 ### Class 7
 
   + Topics: [Decision Theory](/notes/decision-theory.md), Probability, Risk, Uncertainty
+  + Exercise: "Triangular Distribution"
   + Project: ["Retirement Savings Calculator"](/projects/savings-calc.md)
 
 <hr>
