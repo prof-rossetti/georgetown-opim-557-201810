@@ -4,7 +4,7 @@
 
 ### Prerequisites
 
-  + Topics: [Information Systems](/notes/information-systems/README.md), Decision-Support Systems, Process Automation
+  + Topics: [Information Systems and Decision-Support Systems](/notes/information-systems/README.md), Process Automation
   + VBA Programming: [Getting Started](/notes/visual-basic/getting-started.md), [Debugging](/notes/visual-basic/debugging.md), [Macros](/notes/visual-basic/macros.md)
   + Exercise: ["Hello Macro"](/exercises/hello-macro.md)
 
@@ -18,7 +18,7 @@
 
 ### Class 2
 
-  + Topics: [User Experience](/notes/information-systems/user-experience.md) and User Interface Design
+  + Topics: [User Experience](/notes/user-experience.md) and User Interface Design
   + Interface Elements (2a): [Combo Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [List Boxes](/notes/ms-excel/activex-controls/combo-boxes.md), [Scroll Bars](/notes/ms-excel/activex-controls/scroll-bars.md), [Spin Buttons](/notes/ms-excel/activex-controls/spin-buttons.md)
   + VBA Programming (2a): [Variables](/notes/visual-basic/variables.md), Basic [Datatypes](/notes/visual-basic/datatypes.md) ([Strings](/notes/visual-basic/datatypes/strings.md), Numbers, Booleans)
   + Interface Elements (2b): [Check Boxes](/notes/ms-excel/activex-controls/check-boxes.md), [Option Buttons](/notes/ms-excel/activex-controls/option-buttons.md), [Toggle Buttons](/notes/ms-excel/activex-controls/toggle-buttons.md)
@@ -40,7 +40,7 @@
 
 ### Class 5
 
-  + Topics: [Code Simplification and Refactoring](/notes/information-systems/code-simplification.md), System Maintenance and Quality Control
+  + Topics: Quality Control, [Code Simplification and Refactoring](/notes/visual-basic/refactoring.md)
   + VBA Programming: [Functions](/notes/visual-basic/functions.md), [Modules](/notes/visual-basic/modules.md)
   + Exercise: ["Codebase Cleanup"](/exercises/codebase-cleanup.md)
 
@@ -51,8 +51,9 @@
 
 ### Class 7
 
-  + Topics: Probability, Risk, Uncertainty
-  + Project: "Retirement Savings Calculator"
+  + Topics: [Decision Theory](/notes/decision-theory.md), Probability, Risk, Uncertainty
+  + Exercise: "Triangular Distribution"
+  + Project: ["Retirement Savings Calculator"](/projects/savings-calc.md)
 
 <hr>
 

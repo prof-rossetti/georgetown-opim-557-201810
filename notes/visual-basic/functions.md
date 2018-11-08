@@ -30,6 +30,10 @@ End Function
 Private Function RectangleArea(ByVal Length As Integer, ByVal Width As Integer)
     RectangleArea = Length * Width
 End Function
+
+Private Function RectangleArea(ByVal Length As Integer, ByVal Width As Integer) As Integer ' <--- optionally specify the expected datatype of the return value
+    RectangleArea = Length * Width
+End Function
 ```
 
 ```vb
