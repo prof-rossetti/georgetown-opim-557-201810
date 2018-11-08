@@ -137,12 +137,12 @@ Information | Captures inputs. | 0.10
 Information | Displays final outputs. | 0.10
 Information | Formats inputs and outputs (USD, pct, etc.). | 0.10
 UI/UX | Provides written user instructions. | 0.08
-UI/UX | Calculations triggered by button-click event. | 0.05
-UI/UX | Reasonable user experience, with instructional clarity, lacking runtime errors. | 0.12
+UI/UX | Uses a button click event to trigger the calculation and display processes. | 0.05
+UI/UX | Provides a reasonable user experience, with instructional clarity, lacking runtime errors. | 0.12
 Validation | Validates age inputs. | 0.07
 Validation | Validates age less than retirement age. | 0.05
 Validation | Validates currency inputs. | 0.07
-Validation | Validates percentage input. | 0.06
+Validation | Validates percentage inputs. | 0.06
 Calculation | Calculates final outputs with accuracy. | 0.20
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
