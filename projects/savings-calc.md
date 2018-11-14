@@ -157,12 +157,14 @@ Additionally, the professor reserves the right to award extra credit for submiss
 
 ### Writing Annual Data to Sheet
 
-Challenge TBA
+After capturing inputs, and before displaying final outputs, the program should write annual calculations to the "Data" sheet. One row per year, with columns for age, starting balance, ending balance, accrued interest, etc.
+
+The program should clear previous results from the sheet before writing new results there.
 
 ### Probabilistic Annual Returns
 
-Challenge TBA
+Instead of calculating annual accrued interest on a savings account, alternatively or additionally calculate annual returns for an investment portfolio. Incorporate probability into your forecasts. Use this [Triangular Distribution Function](/exercises/functions/triangular-distribution.vb) to generate a semi-random rate of return for each year.
 
 ### Charts and Graphs
 
-Challenge TBA
+Sometime after capturing inputs and calculating the results, the program should display auto-updating charts and graphs to aid user decision-making.
