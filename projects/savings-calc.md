@@ -11,9 +11,7 @@ Assume you own and operate a financial planning business which helps customers p
 
 ## Instructions
 
-Create a new macro-enabled workbook named "`netid`-savings-calc.xlsm", where `netid` is your university-issued net identifier (i.e. the first part of your university-issued email address).
-
-Rename the first sheet to "Interface".
+Create a new macro-enabled workbook named "savings-calc.xlsm". Rename the first sheet to "Interface".
 
 Your submission should adhere to the following requirements, as detailed in the corresponding sections below:
 
@@ -23,8 +21,6 @@ Your submission should adhere to the following requirements, as detailed in the 
   + [Calculation Requirements](#calculation-requirements)
 
 ### Information Requirements
-
-Regardless of how you choose to capture and display inputs and outputs, make sure the user sees only properly-formatted values. Rates should be formatted with a percent sign (%) and dollar amounts should be formatted as USD with a dollar sign ($) and two decimal places.
 
 #### Inputs
 
@@ -75,6 +71,10 @@ Total Interest Accrued | `AccruedInterest` | `Double` | `31439.21`
 > NOTE: Depending on your interface, when declaring variables, it may be reasonable to declare different datatypes than those suggested above, or to not declare datatypes at all. Use your best judgement and go with what works.
 
 See the "Calculation Requirements" section below for more information about how to calculate these information outputs.
+
+#### Formatting
+
+Regardless of how you choose to capture and display inputs and outputs, make sure the user sees only properly-formatted values. Rates should be formatted with a percent sign (%) and dollar amounts should be formatted as USD with a dollar sign ($) and two decimal places.
 
 ### UI/UX Requirements
 
@@ -136,12 +136,12 @@ Requirements Category | System Requirement | Weight
 Information | Captures inputs. | 0.10
 Information | Displays final outputs. | 0.10
 Information | Formats inputs and outputs (USD, pct, etc.). | 0.10
-UI/UX | Provides written user instructions and an interface with appropriate elements/controls. | 0.08
-UI/UX | Uses a button click event to trigger the calculation and display processes. | 0.05
-UI/UX | Provides a reasonable user experience, with instructional clarity, lacking runtime errors. | 0.12
-Validation | Validates age inputs. | 0.07
+UI/UX | Provides written user instructions and an interface with appropriate elements/controls. | 0.07
+UI/UX | Uses a button click event to trigger the calculation and display processes. | 0.04
+UI/UX | Provides a reasonable user experience, lacking runtime errors. | 0.16
+Validation | Validates age inputs. | 0.06
 Validation | Validates age less than retirement age. | 0.05
-Validation | Validates currency inputs. | 0.07
+Validation | Validates currency inputs. | 0.06
 Validation | Validates percentage inputs. | 0.06
 Calculation | Calculates final outputs with accuracy. | 0.20
 
