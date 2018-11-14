@@ -161,9 +161,11 @@ After capturing inputs, and before displaying final outputs, the program should 
 
 The program should clear previous results from the sheet before writing new results there.
 
-### Probabilistic Annual Returns
+### Modeling Annual Returns
 
-Instead of calculating annual accrued interest on a savings account, alternatively or additionally calculate annual returns for an investment portfolio. Incorporate probability into your forecasts. Use this [Triangular Distribution Function](/exercises/functions/triangular-distribution.vb) to generate a semi-random rate of return for each year.
+In addition to their savings account, assume the user has an investment portfolio. Allow the user to input the current balance of their portfolio, as well as a likely range of annual investment return rates.
+
+Based on these inputs, use this [Triangular Distribution Function](/exercises/simulated-returns/triangular-distribution.vb) to generate a simulated return rate for each year. And include these investment returns in the program's final calculations.
 
 ### Charts and Graphs
 
