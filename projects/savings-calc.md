@@ -161,11 +161,11 @@ After capturing inputs, and before displaying final outputs, the program should 
 
 The program should clear previous results from the sheet before writing new results there.
 
-### Modeling Annual Returns
+### Simulating Annual Returns
 
 In addition to their savings account, assume the user has an investment portfolio. Allow the user to input the current balance of their portfolio, as well as a likely range of annual investment return rates.
 
-Based on these inputs, use this [Triangular Distribution Function](/exercises/simulated-returns/triangular-distribution.vb) to generate a simulated return rate for each year. And include these investment returns in the program's final calculations.
+Based on these new inputs, use this [Triangular Distribution Function](/exercises/simulated-returns/triangular-distribution.vb) to generate a simulated return rate for each year. And include these investment returns in the program's final calculations and outputs.
 
 ### Charts and Graphs
 
