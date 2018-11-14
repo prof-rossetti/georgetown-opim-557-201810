@@ -58,6 +58,38 @@ For Each MyCell In Range("A1:C5").Cells
 Next MyCell
 ```
 
+### Rows in a Range
+
+Access all rows in a given range:
+
+```vb
+Range("A1:C5").Rows.Count ' --> 5
+```
+
+Iterate through all rows in a given range:
+
+```vb
+For Each MyRow In Range("A1:C5").Rows
+    MsgBox (MyRow.Address)
+Next MyRow
+```
+
+### Columns in a Range
+
+Access all columns in a given range:
+
+```vb
+Range("A1:C5").Columns.Count ' --> 3
+```
+
+Iterate through all columns in a given range:
+
+```vb
+For Each MyCol In Range("A1:C5").Columns
+    MsgBox (MyCol.Address)
+Next MyCol
+```
+
 ### Copying Ranges
 
 To copy the contents of one range of cells to another, simultaneously read and write to and from the appropriate ranges:

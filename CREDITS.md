@@ -14,6 +14,7 @@ Tools:
   + [VB Indent](http://www.vbindent.com/)
   + [VBA Language Snippets and Syntax Highlighting for Atom Text Editor](https://atom.io/packages/language-vba)
   + [JSON to XML Converter](https://www.freeformatter.com/json-to-xml-converter.html)
+  + [Line Counter](https://www.tools4noobs.com/online_tools/count_lines/)
 
 Data:
 

@@ -42,17 +42,17 @@
 
   + Topics: Quality Control, [Code Simplification and Refactoring](/notes/visual-basic/refactoring.md)
   + VBA Programming: [Functions](/notes/visual-basic/functions.md), [Modules](/notes/visual-basic/modules.md)
-  + Exercise: ["Codebase Cleanup"](/exercises/codebase-cleanup.md)
+  + Exercises: ["Codebase Cleanup"](/exercises/codebase-cleanup.md), ["Custom Functions"](/exercises/custom-functions.md)
 
 ### Class 6
 
-  + VBA Programming: Iteration ([Loops](/notes/visual-basic/loops.md), [Arrays](/notes/visual-basic/datatypes/arrays.md))
+  + VBA Programming: Iteration ([Loops](/notes/visual-basic/loops.md), Collections, [Arrays](/notes/visual-basic/datatypes/arrays.md))
   + Exercise: ["Processing CSV Strings"](/exercises/processing-csv-strings.md)
 
 ### Class 7
 
   + Topics: [Decision Theory](/notes/decision-theory.md), Probability, Risk, Uncertainty
-  + Exercise: "Triangular Distribution"
+  + Exercise: ["Simulated Returns"](/exercises/simulated-returns.md)
   + Project: ["Retirement Savings Calculator"](/projects/savings-calc.md)
 
 <hr>

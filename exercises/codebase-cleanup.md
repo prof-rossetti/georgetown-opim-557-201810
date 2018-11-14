@@ -19,3 +19,11 @@ If you have an existing workbook, copy and save a new version named something li
 
   + OptionButton Solution: [Original](/exercises/codebase-cleanup/options-original.vb) --> [Simplified](/exercises/codebase-cleanup/options-simplified.vb)
   + Checkbox Solution: [Original](/exercises/codebase-cleanup/checks-original.vb) --> [Simplified](/exercises/codebase-cleanup/checks-simplified.vb) --> [Simplified Further](/exercises/codebase-cleanup/checks-simplified-further.vb) :smiley_cat:
+
+## Further Exploration
+
+Repeat the instructions, but this time refactor your ["Simple System"](/projects/simple-system.md) project deliverable instead.
+
+How many lines of code did it start with? How many lines of code did it end with after the refactoring process? Use a line-counting tool [like this one](https://www.tools4noobs.com/online_tools/count_lines/) to count the number of lines of code in your project before and after refactoring.
+
+Optionally post your results to Slack (e.g. `Refactored my Simple System from X lines to Y lines! :raised_hands:`).
