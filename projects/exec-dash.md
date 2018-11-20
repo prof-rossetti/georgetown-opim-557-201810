@@ -31,13 +31,13 @@ Your submission should adhere to the following requirements, as detailed in the 
 
 When the user opens the workbook, they should see a sheet called "Interface", or a user form, with nothing but an "Import Monthly Sales Data" button and some helpful instructions.
 
-![a screenshot of an example interface, including a simple command button](example-interface.png)
+![a screenshot of an example interface, including a simple command button](/img/projects/exec-dash/example-interface.png)
 
 ### Information Input Requirements
 
 When the user clicks the "Import Monthly Sales Data" button, they should be prompted to select a local CSV file representing monthly sales data.
 
-![a screenshot of a user selecting a file via a native file selection menu](example-import-dialogue.png)
+![a screenshot of a user selecting a file via a native file selection menu](/img/projects/exec-dash/example-import-dialogue.png)
 
 > Hint: there are many ways to do this, but try using `Application.GetOpenFileName()`.
 
