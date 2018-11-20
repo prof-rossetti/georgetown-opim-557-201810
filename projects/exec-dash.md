@@ -9,7 +9,7 @@ So your objective is to create a tool which automates the process of transformin
 ## Learning Objectives
 
   1. Design and build a tool to automate manual efforts and aid a decision-making process.
-  2. Find practical applications for learning new programming concepts, primarily importing data from CSV files.
+  2. Find practical applications for learning automated data-processing and data-visualization techniques.
 
 ## Instructions
 
@@ -59,7 +59,7 @@ The program should proceed in one of the following ways, depending on the outcom
 
 ### Calculation Requirements
 
-Using whatever MS Excel and/or Visual Basic Programming capabilities you would like, the program should somehow process and aggregate the raw data into various summary tables, charts, and graphs. The comprehensiveness and accuracy of these aggregations, calculations, and representations comprises the "Calculation Requirements" grade.
+Using whatever MS Excel and/or VBA programming capabilities you would like, the program should somehow process and aggregate the raw data into various summary tables, charts, and graphs. The comprehensiveness and accuracy of these aggregations, calculations, and representations comprises the "Calculation Requirements" grade.
 
 ### Information Output Requirements
 
@@ -67,7 +67,7 @@ The final versions of these information outputs should appear on the "Dashboard"
 
   1. Total monthly sales for the business, equivalent to the sum of total monthly sales for each product, formatted as USD with a dollar sign and two decimal places (e.g. "Total Monthly Sales: $12,000.71").
   2. A list of the top selling products, and total monthly sales for each, formatted as USD with a dollar sign and two decimal places (e.g. "Button-Down Shirt: $6,960.35", "Super Soft Hoodie: $1,875.00", etc.).
-  3. At least one visual chart or graph depicting this or related information to support the project objectives. The title of at least one chart should include a textual representation of the respective month (e.g. "March 2018"), which should update based on whichever file was imported.
+  3. At least one visual chart or graph depicting this or related information to support the project objectives. The title of at least one chart should include a textual representation of the respective month (e.g. "March 2018"), which should automatically update to reflect the name of the selected file.
 
 ![a screenshot of a pivot table summary and a corresponding chart depicting top-selling products](/img/projects/exec-dash/example-dashboard-march.png)
 
@@ -83,7 +83,7 @@ Wherever price-related information (e.g. unit prices and sales prices) appears i
 
 ## Evaluation Methodology
 
-Submissions will be evaluated based on ability to meet each of the component requirements (see corresponding sections above for detailed instructions):
+Submissions will be evaluated based on their ability to meet each of the component requirements (see corresponding sections above for detailed instructions):
 
 Category | Weight
 --- | ---
