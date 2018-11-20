@@ -90,6 +90,18 @@ For Each MyCol In Range("A1:C5").Columns
 Next MyCol
 ```
 
+### Selecting Relative Ranges
+
+You can select relative ranges by leveraging the [`Range.End` property](https://docs.microsoft.com/en-us/office/vba/api/Excel.Range.End), in conjunction with a [direction](https://docs.microsoft.com/en-us/office/vba/api/excel.xldirection) to reference.
+
+The result "represents the cell at the end of the region that contains the source range (equivalent to pressing `END+UP ARROW`, `END+DOWN ARROW`, `END+LEFT ARROW`, or `END+RIGHT ARROW`)."
+
+Example:
+
+```vb
+Range("A1").End(xlDown).Select
+```
+
 ### Copying Ranges
 
 To copy the contents of one range of cells to another, simultaneously read and write to and from the appropriate ranges:

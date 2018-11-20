@@ -61,14 +61,14 @@
 
 ### Class 8
 
-  + VBA Programming: Workbook File Operations
-  + Exercise: "Processing Spreadsheet Files"
+  + VBA Programming: [Opening and Closing Workbooks](/notes/ms-excel/workbooks.md#opening-and-closing-workbooks), [Selecting Files to Open](/notes/ms-excel/workbooks.md#selecting-files-to-open), [Copying Ranges](/notes/ms-excel/ranges.md#copying-ranges)
+  + Exercise: ["Processing Spreadsheet Files"](/exercises/processing-spreadsheet-files.md)
 
 ### Class 9
 
   + Topics: Metrics, Reporting, Data Visualization
-  + MS Excel: Pivot Tables, Charts
-  + Project: "Executive Dashboard"
+  + MS Excel: [Pivot Tables](/notes/ms-excel/pivot-tables.md), [Charts](/notes/ms-excel/chart-objects.md)
+  + Project: ["Executive Dashboard"](/projects/exec-dash.md)
 
 <hr>
 
