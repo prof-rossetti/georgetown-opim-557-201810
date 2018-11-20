@@ -39,7 +39,7 @@ When the user clicks the "Import Monthly Sales Data" button, they should be prom
 
 ![a screenshot of a user selecting a file via a native file selection menu](/img/projects/exec-dash/example-import-dialogue.png)
 
-> Hint: there are many ways to do this, but try using `Application.GetOpenFileName()`.
+> HINT: There are many ways to do this, but try using `Application.GetOpenFileName()`.
 
 ### Validation Requirements
 
@@ -53,9 +53,9 @@ The program should proceed in one of the following ways, depending on the outcom
 
 ![a screenshot of imported data on the "Data" sheet](/img/projects/exec-dash/example-data-march.png)
 
-> Hint: there are many ways to do this, but try using `Application.Workbooks.Open()` to open the CSV file, then reference it like any other Worksheet object.
+> HINT: There are many ways to do this, but try using `Application.Workbooks.Open()` to open the CSV file, then reference it like any other Worksheet object.
 
-> Hint: fully clear the contents and formatting of all cells on the "Data" sheet before writing any new data there.
+> HINT: Fully clear the contents and formatting of all cells on the "Data" sheet before writing any new data there.
 
 ### Calculation Requirements
 
@@ -71,9 +71,9 @@ The final versions of these information outputs should appear on the "Dashboard"
 
 ![a screenshot of a pivot table summary and a corresponding chart depicting top-selling products](/img/projects/exec-dash/example-dashboard-march.png)
 
-> Hint: try manually configuring a Pivot Table and corresponding Pivot Chart after you import data for the first time, and write code to update the underlying data source (Pivot Cache) on subsequent imports.
+> HINT: Try manually configuring a Pivot Table and corresponding Pivot Chart after you import data for the first time, and write code to update the underlying data source (Pivot Cache) on subsequent imports.
 
-> Hint: to detect the month and year, either parse the filename, or parse the imported date values.
+> HINT: To detect the month and year, either parse the filename, or parse the imported date values.
 
 Wherever price-related information (e.g. unit prices and sales prices) appears in the workbook, it should be formatted as USD, with a dollar sign and two decimal places. This includes in cell values on the "Data" sheet, and in charts, tables, and graphs on the "Dashboard" sheet.
 
