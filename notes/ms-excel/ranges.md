@@ -92,7 +92,7 @@ Next MyCol
 
 ### Selecting Relative Ranges
 
-You can select relative ranges by leveraging the [`Range.End` property](https://docs.microsoft.com/en-us/office/vba/api/Excel.Range.End), in conjunction with a [direction](https://docs.microsoft.com/en-us/office/vba/api/excel.xldirection) to reference.
+You can select relative ranges by leveraging the [`Range.End` property](https://docs.microsoft.com/en-us/office/vba/api/Excel.Range.End), in conjunction with a [direction](https://docs.microsoft.com/en-us/office/vba/api/excel.xldirection) relative to the given range.
 
 The result "represents the cell at the end of the region that contains the source range (equivalent to pressing `END+UP ARROW`, `END+DOWN ARROW`, `END+LEFT ARROW`, or `END+RIGHT ARROW`)."
 
