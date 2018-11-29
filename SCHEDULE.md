@@ -61,12 +61,13 @@
 
 ### Class 8
 
+  + Topics: [Data Visualization](/notes/data-visualization.md)
   + VBA Programming: [Opening and Closing Workbooks](/notes/ms-excel/workbooks.md#opening-and-closing-workbooks), [Selecting Files to Open](/notes/ms-excel/workbooks.md#selecting-files-to-open), [Copying Ranges](/notes/ms-excel/ranges.md#copying-ranges)
   + Exercise: ["Processing Spreadsheet Files"](/exercises/processing-spreadsheet-files.md)
 
 ### Class 9
 
-  + Topics: Metrics, Reporting, [Data Visualization](/notes/data-visualization.md)
+  + Topics: [Metrics](/notes/metrics.md), Reporting
   + MS Excel: [Pivot Tables](/notes/ms-excel/pivot-tables.md), [Charts](/notes/ms-excel/chart-objects.md)
   + Project: ["Executive Dashboard"](/projects/exec-dash.md)
 
@@ -76,15 +77,16 @@
 
 ### Class 10
 
-  + Topics: Computer Networks, the Internet, and HTTP
-  + VBA Programming: WinHTTP Services
-  + Exercise: "Processing Internet Data"
+  + Topics: [Computer Networks](/notes/information-systems/computer-networks.md), the Internet, and HTTP
+  + VBA Programming: [WinHTTP Services](/notes/visual-basic/win-http-services.md)
+  + Exercise: ["Processing Internet Data"](/exercises/processing-internet-data.md), ["Processing CSV Strings", revisited](/exercises/processing-csv-strings.md)
 
 ### Class 11
 
-  + Topics: Application Programming Interfaces (APIs)
-  + Project: "Stock Trading Recommendation System"
+  + Topics: [Application Programming Interfaces (APIs)](/notes/information-systems/apis.md)
+  + Project: ["Stock Trading Recommendation System"](/projects/robo-advisor.md)
 
 ### Class 12
 
+  + VBA Programming: [Dictionaries](/notes/visual-basic/datatypes/dictionaries.md)
   + Exercise: "Social Media Analytics Tool"
