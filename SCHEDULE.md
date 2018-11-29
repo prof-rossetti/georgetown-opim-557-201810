@@ -79,13 +79,14 @@
 
   + Topics: [Computer Networks](/notes/information-systems/computer-networks.md), the Internet, and HTTP
   + VBA Programming: [WinHTTP Services](/notes/visual-basic/win-http-services.md)
-  + Exercise: "Processing Internet Data"
+  + Exercise: ["Processing Internet Data"](/exercises/processing-internet-data.md), ["Processing CSV Strings", revisited](/exercises/processing-csv-strings.md)
 
 ### Class 11
 
   + Topics: [Application Programming Interfaces (APIs)](/notes/information-systems/apis.md)
-  + Project: "Stock Trading Recommendation System"
+  + Project: ["Stock Trading Recommendation System"](/projects/robo-advisor.md)
 
 ### Class 12
 
+  + VBA Programming: [Dictionaries](/notes/visual-basic/datatypes/dictionaries.md)
   + Exercise: "Social Media Analytics Tool"
