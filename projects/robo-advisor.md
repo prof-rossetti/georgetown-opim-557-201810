@@ -15,14 +15,14 @@ Specifically, the system should accept one or more stock symbols as information 
 
 Create a new macro-enabled workbook named "robo-advisor.xlsm".
 
-For a guided walkthrough of step-by-step instructions, see the project [checkpoints](/projects/robo-advisor/checkpoints.md).
-
-In addition to providing a good user experience, your submission should adhere to the following requirements, as detailed in the corresponding sections below:
+Your submission should adhere to the following requirements, as detailed in the corresponding sections below:
 
   + [Information Input Requirements](#information-input-requirements)
   + [Validation Requirements](#validation-requirements)
   + [Information Output Requirements](#information-output-requirements)
   + [Calculation Requirements](#calculation-requirements)
+
+For an optional guided walkthrough including step-by-step instructions, see the project [checkpoints](/projects/robo-advisor/checkpoints.md).
 
 ## Information Input Requirements
 
@@ -30,9 +30,9 @@ The system should prompt the user to input one or more stock symbols (e.g. `"MSF
 
 ![an example user interface which prompts the user to input a stock symbol into cell E11 and then press a command button to initiate the recommendation process](/img/projects/robo-advisor/example-interface.png)
 
-The system should capture inputs via your choice of input mechanism, whether it be cell value(s), input boxes, or some other means. The system may optionally prompt the user to specify additional inputs such as risk tolerance and other trading preferences, as desired and applicable.
+The system should capture inputs via your choice of input mechanism, whether it be cell value(s), input boxes, drop-downs, user form inputs, or some other means. The system may optionally prompt the user to specify additional inputs such as risk tolerance and other trading preferences, as desired and applicable.
 
-After entering desired inputs, the user should be able to click a command button to trigger the recommendation process.
+After entering desired inputs, the user should be able to click a command button to trigger the validation, calculation, and recommendation processes.
 
 ## Validation Requirements
 
@@ -46,7 +46,10 @@ When the system makes an HTTP request for that stock symbol's trading data, if t
 
 ## Information Output Requirements
 
-After receiving an API response, the system should write historical stock prices to one or more worksheet(s). If the system processes only a single stock symbol at a time, the system may use a single sheet named something like "Data". Whereas if the system processes multiple stock symbols at a time, for each stock symbol, the system should write historical trading data to a corresponding worksheet that is named after the stock symbol. If writing multiple sheets of data, the system should have a way of cleaning-up to prevent uncontrolled proliferation of new sheets.
+After receiving an API response, the system should write historical stock prices to one or more worksheet(s). If the system processes only a single stock symbol at a time, the system may use a single sheet named something like "Data". Whereas if the system processes multiple stock symbols at a time, for each stock symbol, the system should write historical trading data to a corresponding worksheet named after the stock symbol. If writing multiple sheets of data, the system should have a way of cleaning-up to prevent uncontrolled proliferation of new sheets.
+
+![a screenshot of a worksheet full of historical stock prices. it has columns for "timestamp", "open", "high", "low", "close", and "volume". And is has a row of corresponding values for each day.](/img/projects/robo-advisor/example-output-sheet.png)
+
 
 After writing historical data to a spreadsheet, the system should perform calculations (see "Calculation Requirements" section below) to produce a recommendation as to whether or not the client should buy the stock, and optionally what quantity to purchase. The nature of the recommendation for each symbol can be binary (e.g. "Buy" or "No Buy"), qualitative (e.g. a "Low", "Medium", or "High" level of confidence), or quantitative (i.e. some numeric rating scale). The final recommendations can be displayed using your choice of output mechanism, whether it be cell values, message boxes, or some other means. Importantly, the program must also tell the user **why** it made the given recommendation.
 
@@ -81,4 +84,4 @@ Information	Output Requirements (Displays Final Recommendations) | 13%
 
 This rubric is tentative, and may be subject to slight adjustments during the grading process.
 
-The professor reserves the right to award extra credit in recognition of particularly effective user experiences. Common elements that may be eligible for extra credit include: simplicity of user interface, clarity of user instructions, and including auto-updating charts and graphics. Also eligible for extra credit are submissions which expand the scope of this project to handle multiple stock symbols and compare across stock symbols.
+The professor reserves the right to award extra credit in recognition of submissions which exceed expectations and deliver particularly effective user experiences. Common elements which may be eligible for extra credit include: auto-updating charts and graphics, handling of multiple stock symbols, and/or comparing of multiple stocks or indices.
