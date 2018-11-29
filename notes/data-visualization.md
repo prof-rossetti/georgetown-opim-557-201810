@@ -1,3 +1,5 @@
 # Data Dashboards and Visualizations
 
-![](/img/election-map.png)
+![](/img/notes/dataviz/election-map.png)
+
+See also: [Metrics]().
