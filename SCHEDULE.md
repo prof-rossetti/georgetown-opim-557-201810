@@ -67,7 +67,7 @@
 
 ### Class 9
 
-  + Topics: Metrics, Reporting
+  + Topics: [Metrics](/notes/metrics.md), Reporting
   + MS Excel: [Pivot Tables](/notes/ms-excel/pivot-tables.md), [Charts](/notes/ms-excel/chart-objects.md)
   + Project: ["Executive Dashboard"](/projects/exec-dash.md)
 
