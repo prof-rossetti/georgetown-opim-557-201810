@@ -2,7 +2,7 @@
 
 > Please first read about [Computer Networks](computer-networks.md).
 
-Today, the primary way for a human to interact with a computer-based information system is through a visually- and spatially-oriented interface known as a **Graphical User Interface (GUI)**. Common GUI interactions include clicking, dragging, tapping, and swiping.
+Today, the primary way for humans to interact with computer-based information systems is through visually- and spatially-oriented interfaces known as **Graphical User Interfaces (GUI)**. GUI interactions include clicking, dragging, tapping, and other gestures.
 
 But many systems additionally or alternatively allow programmatic usage through textually-oriented interfaces known as **Application Programming Interfaces (APIs)**. APIs provide the instructions and mechanisms for a human or computer to programmatically interact with the system.
 
