@@ -78,7 +78,7 @@
 ### Class 10
 
   + Topics: [Computer Networks, the Internet, and HTTP](/notes/information-systems/computer-networks.md), Machine-readable Data Formats
-  + VBA Programming: [Arrays](/notes/visual-basic/datatypes/arrays.md)) (revisited)
+  + VBA Programming: [Arrays](/notes/visual-basic/datatypes/arrays.md) (revisited)
   + Exercise: ["Processing CSV Strings"](/exercises/processing-csv-strings.md) (revisited)
 
 ### Class 11
@@ -89,7 +89,7 @@
 
 ### Class 12
 
-  + Project: ["Stock Trading Recommendation System"](/projects/robo-advisor.md)
+  + Project: ["Stock Trading Recommendation System" (a.k.a. "Robo Advisor")](/projects/robo-advisor.md)
   + Retrospective Exercise, Student Survey
 
 ### Optional Bonus Materials:
