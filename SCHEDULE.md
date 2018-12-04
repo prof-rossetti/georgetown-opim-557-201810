@@ -73,12 +73,13 @@
 
 <hr>
 
-## Unit IV: Broader Applications
+## Unit IV: Interconnected Systems
 
 ### Class 10
 
-  + Topics: [Computer Networks](/notes/information-systems/computer-networks.md), the Internet, and HTTP
-  + Exercise: ["Processing CSV Strings", revisited](/exercises/processing-csv-strings.md)
+  + Topics: [Computer Networks, the Internet, and HTTP](/notes/information-systems/computer-networks.md), Machine-readable Data Formats
+  + VBA Programming: [Arrays](/notes/visual-basic/datatypes/arrays.md)) (revisited)
+  + Exercise: ["Processing CSV Strings"](/exercises/processing-csv-strings.md) (revisited)
 
 ### Class 11
 
