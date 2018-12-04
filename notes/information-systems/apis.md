@@ -4,11 +4,11 @@
 
 Today, the primary way for a human to interact with a computer-based information system is through a visually- and spatially-oriented interface known as a **Graphical User Interface (GUI)**. Common GUI interactions include clicking, dragging, tapping, and swiping.
 
-But many systems and software also or alternatively allow programmatic usage through textually-oriented interfaces known as **Application Programming Interface (API)**. APIs provide the instructions and mechanisms for a human or computer user to programmatically interact with the system.
+But many systems additionally or alternatively allow programmatic usage through textually-oriented interfaces known as **Application Programming Interfaces (APIs)**. APIs provide the instructions and mechanisms for a human or computer to programmatically interact with the system.
 
-**Web Services** are APIs which facilitate the transmission of data across the Internet to and from some system. Web services usually provide servers which accept HTTP requests at specified URLs and return responses containing textual information in a machine-readable format.
+**Web Services** are APIs which facilitate the transmission of data across the Internet to and from some system. Web services usually provide one or more servers which accept HTTP requests at specified URLs and return responses containing textual information in a machine-readable format.
 
-Here are some example web services:
+Here are some notable example web services:
 
  + [New York Times APIs](http://developer.nytimes.com/docs)
  + [Google APIs](https://developers.google.com/apis-explorer/#p/)
