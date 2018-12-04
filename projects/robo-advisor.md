@@ -10,6 +10,8 @@ Specifically, the system should accept one or more stock symbols as information 
 
   1. Design and build a tool to automate manual efforts and aid a decision-making process.
   2. Find practical applications for learning new programming concepts, primarily requesting and processing API data from the Internet.
+  3. Practice processing machine-readable data in Comma-Separated Values (CSV) format.
+
 
 ## Instructions
 

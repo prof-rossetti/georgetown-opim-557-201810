@@ -3,7 +3,7 @@
 ## Learning Objectives
 
   1. Find practical applications for learning new programming concepts like loops, arrays, and string operations (i.e. splitting strings).
-  2. Gain familiarity with processing data formatted with Comma-Separated Values (CSV)
+  2. Gain familiarity with processing machine-readable data in Comma-Separated Values (CSV) format.
 
 ## Instructions
 
