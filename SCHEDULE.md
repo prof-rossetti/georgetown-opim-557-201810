@@ -73,20 +73,26 @@
 
 <hr>
 
-## Unit IV: Broader Applications
+## Unit IV: Interconnected Systems
 
 ### Class 10
 
-  + Topics: [Computer Networks](/notes/information-systems/computer-networks.md), the Internet, and HTTP
-  + VBA Programming: [WinHTTP Services](/notes/visual-basic/win-http-services.md)
-  + Exercise: ["Processing Internet Data"](/exercises/processing-internet-data.md), ["Processing CSV Strings", revisited](/exercises/processing-csv-strings.md)
+  + Topics: [Computer Networks, the Internet, and HTTP](/notes/information-systems/computer-networks.md), Machine-readable Data Formats
+  + VBA Programming: [Arrays](/notes/visual-basic/datatypes/arrays.md) (revisited)
+  + Exercise: ["Processing CSV Strings"](/exercises/processing-csv-strings.md) (revisited)
 
 ### Class 11
 
   + Topics: [Application Programming Interfaces (APIs)](/notes/information-systems/apis.md)
-  + Project: ["Stock Trading Recommendation System"](/projects/robo-advisor.md)
+  + VBA Programming: [WinHTTP Services](/notes/visual-basic/win-http-services.md)
+  + Exercise: ["Processing Internet Data"](/exercises/processing-internet-data.md)
 
 ### Class 12
+
+  + Project: ["Stock Trading Recommendation System" (a.k.a. "Robo Advisor")](/projects/robo-advisor.md)
+  + Retrospective Exercise, Student Survey
+
+### Optional Bonus Materials:
 
   + VBA Programming: [Dictionaries](/notes/visual-basic/datatypes/dictionaries.md)
   + Exercise: "Social Media Analytics Tool"
