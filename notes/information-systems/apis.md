@@ -6,7 +6,7 @@ Today, the primary way for humans to interact with computer-based information sy
 
 But many systems additionally or alternatively allow programmatic usage through textually-oriented interfaces known as **Application Programming Interfaces (APIs)**. APIs provide the instructions and mechanisms for a human or computer to programmatically interact with the system.
 
-**Web Services** are APIs which facilitate the transmission of data across the Internet to and from some system. Web services usually provide one or more servers which accept HTTP requests at specified URLs and return responses containing textual information in a machine-readable format.
+**Web Services** are APIs which facilitate the transmission of data across the Internet, to and from some system. Web services usually provide one or more servers which accept HTTP requests at specified URLs and return responses containing textual information in a machine-readable format.
 
 Here are some notable example web services:
 
