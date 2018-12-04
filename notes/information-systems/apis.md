@@ -1,14 +1,14 @@
 # Software APIs Overview
 
-> Before you read this document, please first read about [Computer Networks](computer-networks.md).
+> Please first read about [Computer Networks](computer-networks.md).
 
-Humans often interface with software manually, using a **Graphical User Interface (GUI)** which most likely includes buttons, navigation menus, drag-and-drop functionality, etc.
+Today, the primary way for a human to interact with a computer-based information system is through a visually- and spatially-oriented interface known as a **Graphical User Interface (GUI)**. Common GUI interactions include clicking, dragging, tapping, and swiping.
 
-However, many applications also allow programmatic use. By specifying an **Application Programming Interface (API)**, or instructions on how to use the software programmatically, applications allow both humans and other applications to send data to the application and receive data from it.
+But many systems and software also or alternatively allow programmatic usage through textually-oriented interfaces known as **Application Programming Interface (API)**. APIs provide the instructions and mechanisms for a human or computer user to programmatically interact with the system.
 
-It is not uncommon for a system to also use its own public API to perform its own desired functionality.
+**Web Services** are APIs which facilitate the transmission of data across the Internet to and from some system. Web services usually provide servers which accept HTTP requests at specified URLs and return responses containing textual information in a machine-readable format.
 
-Most of todays popular APIs are **Web Services** which accept HTTP requests at specified URLs and return responses to fulfill those requests. Here are some example APIs and API providers:
+Here are some example web services:
 
  + [New York Times APIs](http://developer.nytimes.com/docs)
  + [Google APIs](https://developers.google.com/apis-explorer/#p/)
