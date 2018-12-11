@@ -95,4 +95,4 @@
 ### Optional Bonus Materials:
 
   + VBA Programming: [Dictionaries](/notes/visual-basic/datatypes/dictionaries.md)
-  + Exercise: "Social Media Analytics Tool"
+  + Exercise: "Social Media Analytics Tool" (inquire with the professor if interested)
